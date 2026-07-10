@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="ObjectDummy" id="887507859" trigger_interaction_enabled="1" name="first_person_controller">
+		<body type="BodyRigid" id="757156862" frozen="0"/>
+		<properties>
+			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="4391036aa032a4fdfec1351a937d31fa78503fb2">
+				<parameter name="mouseSensitivity">0.159290001</parameter>
+				<parameter name="useObjectBody">1</parameter>
+				<parameter name="nearClipping">0.100000001</parameter>
+				<parameter name="farClipping">100000</parameter>
+			</property>
+		</properties>
+		<transform>0.9999994 0 0 0.0 0 0.9999994 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="496747392" immovable="1" name="Scavenger_mesh_body">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://7febbc459871cc161eeefd8214b02e5f9051f169</mesh_name>
+			<surface name="Scavenger_mesh_bodyMat" intersection="1" material="42800e5f52c7032716ee71ef4202105f9cf51f67"/>
+			<body type="BodyDummy" id="1423235675" frozen="0"/>
+			<properties>
+				<property/>
+			</properties>
+			<transform>0.010000002 0 0 0.0 0 0.010000002 0 0.0 0 0 0.010000001 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

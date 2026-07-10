@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="NodeDummy" id="705104620" name="Scavenger_Stand_pose">
+		<transform>1 2.646978e-22 -3.8213714e-15 0.0 9.2644229e-23 1 8.7422777e-08 0.0 3.8213714e-15 -8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="1043368283" name="Scavenger_Stand_pose_root">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			<node type="ObjectMeshStatic" id="629354238" immovable="1" name="Scavenger_mesh_backpack">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://433504df1f84486c24ff488ee38370e5c9c0edb2</mesh_name>
+				<surface name="Scavenger_mesh_backpackMat" intersection="1" material="cec5416d1e90f46ea7aae8ca7bbf684ab46ea111"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2141162053" immovable="1" name="Scavenger_mesh_body">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://7febbc459871cc161eeefd8214b02e5f9051f169</mesh_name>
+				<surface name="Scavenger_mesh_bodyMat" intersection="1" material="a51cc9b9b299eeb350adeb86541934ad9714df1d"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

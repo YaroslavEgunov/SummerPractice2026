@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.18.0.1" name="FirstPersonController" guid="7abd3d1dd6399bd8498bed57e699aacada031ba1" parent="657ecdbbfc83135a26777f86012da3587b67be0c" editable="0">
+	<struct name="DebugCamera">
+		<parameter name="enabled" type="toggle" tooltip="Debug camera enabled">0</parameter>
+		<parameter name="useFixedAngles" type="toggle" tooltip="Use debug camera with fixed angles" enabled="1">0</parameter>
+	</struct>
+	<struct name="DebugVisualizer">
+		<parameter name="enabled" type="toggle" tooltip="Use visualizer">0</parameter>
+		<parameter name="triangles" type="toggle" tooltip="Triangles" enabled="1">0</parameter>
+		<parameter name="shapes" type="toggle" tooltip="Shapes" enabled="1">0</parameter>
+		<parameter name="playerShape" type="toggle" tooltip="Player shape" enabled="1">0</parameter>
+		<parameter name="playerDirection" type="toggle" tooltip="Player direction" enabled="1">0</parameter>
+		<parameter name="camera" type="toggle" tooltip="Camera" enabled="1">0</parameter>
+		<parameter name="slopeBasis" type="toggle" tooltip="Slope basis" enabled="1">0</parameter>
+		<parameter name="appliedHorizontalVelocity" type="toggle" tooltip="Applied horizontal velocity" enabled="1">0</parameter>
+		<parameter name="appliedVerticalVelocity" type="toggle" tooltip="Applied vertical velocity" enabled="1">0</parameter>
+		<parameter name="upPassContacts" type="toggle" tooltip="Up pass contacts" enabled="1">0</parameter>
+		<parameter name="sidePassContacts" type="toggle" tooltip="Side pass contacts" enabled="1">0</parameter>
+		<parameter name="downPassContacts" type="toggle" tooltip="Down pass contacts" enabled="1">0</parameter>
+		<parameter name="checkMoveRay" type="toggle" tooltip="Check move ray" enabled="1">0</parameter>
+		<parameter name="stairDetectionRay" type="toggle" tooltip="Stair detection ray" enabled="1">0</parameter>
+	</struct>
+	<struct name="DebugProfiler">
+		<parameter name="enabled" type="toggle" tooltip="Use profiler">0</parameter>
+		<parameter name="appliedHorizontalSpeed" type="toggle" tooltip="Applied horizontal speed" enabled="1">0</parameter>
+		<parameter name="appliedVerticalSpeed" type="toggle" tooltip="Applied vertical speed" enabled="1">0</parameter>
+		<parameter name="upPassContact" type="toggle" tooltip="Up pass contact" enabled="1">0</parameter>
+		<parameter name="sidePassContact" type="toggle" tooltip="Side pass contact" enabled="1">0</parameter>
+		<parameter name="downPassContact" type="toggle" tooltip="Down pass contact" enabled="1">0</parameter>
+		<parameter name="isGround" type="toggle" tooltip="Is ground" enabled="1">0</parameter>
+		<parameter name="isCeiling" type="toggle" tooltip="Is ceiling" enabled="1">0</parameter>
+		<parameter name="isCrouch" type="toggle" tooltip="Is crouch" enabled="1">0</parameter>
+		<parameter name="averageSpeed" type="toggle" tooltip="Average speed" enabled="1">0</parameter>
+		<parameter name="autoStepping" type="toggle" tooltip="Auto stepping" enabled="1">0</parameter>
+	</struct>
+	<struct name="DebugColors">
+		<parameter name="playerShape" type="color">0 0 0 0</parameter>
+		<parameter name="playerDirection" type="color">0 0 0 0</parameter>
+		<parameter name="cameraColor" type="color">0 0 0 0</parameter>
+		<parameter name="appliedHorizontalVelocity" type="color">0 0 0 0</parameter>
+		<parameter name="appliedVerticalVelocity" type="color">0 0 0 0</parameter>
+		<parameter name="upPassContacts" type="color">0 0 0 0</parameter>
+		<parameter name="sidePassContacts" type="color">0 0 0 0</parameter>
+		<parameter name="downPassContacts" type="color">0 0 0 0</parameter>
+		<parameter name="isGround" type="color">0 0 0 0</parameter>
+		<parameter name="isCeiling" type="color">0 0 0 0</parameter>
+		<parameter name="isCrouch" type="color">0 0 0 0</parameter>
+		<parameter name="averageSpeed" type="color">0 0 0 0</parameter>
+		<parameter name="autoStepping" type="color">0 0 0 0</parameter>
+	</struct>
+	<parameter name="forwardKey" type="switch" tooltip="Move forward key" group="Input" items="UNKNOWN,ESC,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,PRINTSCREEN,SCROLL_LOCK,PAUSE,BACK_QUOTE,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,DIGIT_0,MINUS,EQUALS,BACKSPACE,TAB,Q,W,E,R,T,Y,U,I,O,P,LEFT_BRACKET,RIGHT_BRACKET,ENTER,CAPS_LOCK,A,S,D,F,G,H,J,K,L,SEMICOLON,QUOTE,BACK_SLASH,LEFT_SHIFT,LESS,Z,X,C,V,B,N,M,COMMA,DOT,SLASH,RIGHT_SHIFT,LEFT_CTRL,LEFT_CMD,LEFT_ALT,SPACE,RIGHT_ALT,RIGHT_CMD,MENU,RIGHT_CTRL,INSERT,DELETE,HOME,END,PGUP,PGDOWN,UP,LEFT,DOWN,RIGHT,NUM_LOCK,NUMPAD_DIVIDE,NUMPAD_MULTIPLY,NUMPAD_MINUS,NUMPAD_DIGIT_7,NUMPAD_DIGIT_8,NUMPAD_DIGIT_9,NUMPAD_PLUS,NUMPAD_DIGIT_4,NUMPAD_DIGIT_5,NUMPAD_DIGIT_6,NUMPAD_DIGIT_1,NUMPAD_DIGIT_2,NUMPAD_DIGIT_3,NUMPAD_ENTER,NUMPAD_DIGIT_0,NUMPAD_DOT,ANY_SHIFT,ANY_CTRL,ANY_ALT,ANY_CMD,ANY_UP,ANY_LEFT,ANY_DOWN,ANY_RIGHT,ANY_ENTER,ANY_DELETE,ANY_INSERT,ANY_HOME,ANY_END,ANY_PGUP,ANY_PGDOWN,ANY_DIGIT_1,ANY_DIGIT_2,ANY_DIGIT_3,ANY_DIGIT_4,ANY_DIGIT_5,ANY_DIGIT_6,ANY_DIGIT_7,ANY_DIGIT_8,ANY_DIGIT_9,ANY_DIGIT_0,ANY_MINUS,ANY_EQUALS,ANY_DOT,NUM_KEYS">33</parameter>
+	<parameter name="backwardKey" type="switch" tooltip="Move backward key" group="Input" items="UNKNOWN,ESC,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,PRINTSCREEN,SCROLL_LOCK,PAUSE,BACK_QUOTE,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,DIGIT_0,MINUS,EQUALS,BACKSPACE,TAB,Q,W,E,R,T,Y,U,I,O,P,LEFT_BRACKET,RIGHT_BRACKET,ENTER,CAPS_LOCK,A,S,D,F,G,H,J,K,L,SEMICOLON,QUOTE,BACK_SLASH,LEFT_SHIFT,LESS,Z,X,C,V,B,N,M,COMMA,DOT,SLASH,RIGHT_SHIFT,LEFT_CTRL,LEFT_CMD,LEFT_ALT,SPACE,RIGHT_ALT,RIGHT_CMD,MENU,RIGHT_CTRL,INSERT,DELETE,HOME,END,PGUP,PGDOWN,UP,LEFT,DOWN,RIGHT,NUM_LOCK,NUMPAD_DIVIDE,NUMPAD_MULTIPLY,NUMPAD_MINUS,NUMPAD_DIGIT_7,NUMPAD_DIGIT_8,NUMPAD_DIGIT_9,NUMPAD_PLUS,NUMPAD_DIGIT_4,NUMPAD_DIGIT_5,NUMPAD_DIGIT_6,NUMPAD_DIGIT_1,NUMPAD_DIGIT_2,NUMPAD_DIGIT_3,NUMPAD_ENTER,NUMPAD_DIGIT_0,NUMPAD_DOT,ANY_SHIFT,ANY_CTRL,ANY_ALT,ANY_CMD,ANY_UP,ANY_LEFT,ANY_DOWN,ANY_RIGHT,ANY_ENTER,ANY_DELETE,ANY_INSERT,ANY_HOME,ANY_END,ANY_PGUP,ANY_PGDOWN,ANY_DIGIT_1,ANY_DIGIT_2,ANY_DIGIT_3,ANY_DIGIT_4,ANY_DIGIT_5,ANY_DIGIT_6,ANY_DIGIT_7,ANY_DIGIT_8,ANY_DIGIT_9,ANY_DIGIT_0,ANY_MINUS,ANY_EQUALS,ANY_DOT,NUM_KEYS">47</parameter>
+	<parameter name="rightKey" type="switch" tooltip="Move right key" group="Input" items="UNKNOWN,ESC,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,PRINTSCREEN,SCROLL_LOCK,PAUSE,BACK_QUOTE,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,DIGIT_0,MINUS,EQUALS,BACKSPACE,TAB,Q,W,E,R,T,Y,U,I,O,P,LEFT_BRACKET,RIGHT_BRACKET,ENTER,CAPS_LOCK,A,S,D,F,G,H,J,K,L,SEMICOLON,QUOTE,BACK_SLASH,LEFT_SHIFT,LESS,Z,X,C,V,B,N,M,COMMA,DOT,SLASH,RIGHT_SHIFT,LEFT_CTRL,LEFT_CMD,LEFT_ALT,SPACE,RIGHT_ALT,RIGHT_CMD,MENU,RIGHT_CTRL,INSERT,DELETE,HOME,END,PGUP,PGDOWN,UP,LEFT,DOWN,RIGHT,NUM_LOCK,NUMPAD_DIVIDE,NUMPAD_MULTIPLY,NUMPAD_MINUS,NUMPAD_DIGIT_7,NUMPAD_DIGIT_8,NUMPAD_DIGIT_9,NUMPAD_PLUS,NUMPAD_DIGIT_4,NUMPAD_DIGIT_5,NUMPAD_DIGIT_6,NUMPAD_DIGIT_1,NUMPAD_DIGIT_2,NUMPAD_DIGIT_3,NUMPAD_ENTER,NUMPAD_DIGIT_0,NUMPAD_DOT,ANY_SHIFT,ANY_CTRL,ANY_ALT,ANY_CMD,ANY_UP,ANY_LEFT,ANY_DOWN,ANY_RIGHT,ANY_ENTER,ANY_DELETE,ANY_INSERT,ANY_HOME,ANY_END,ANY_PGUP,ANY_PGDOWN,ANY_DIGIT_1,ANY_DIGIT_2,ANY_DIGIT_3,ANY_DIGIT_4,ANY_DIGIT_5,ANY_DIGIT_6,ANY_DIGIT_7,ANY_DIGIT_8,ANY_DIGIT_9,ANY_DIGIT_0,ANY_MINUS,ANY_EQUALS,ANY_DOT,NUM_KEYS">48</parameter>
+	<parameter name="leftKey" type="switch" tooltip="Move left key" group="Input" items="UNKNOWN,ESC,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,PRINTSCREEN,SCROLL_LOCK,PAUSE,BACK_QUOTE,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,DIGIT_0,MINUS,EQUALS,BACKSPACE,TAB,Q,W,E,R,T,Y,U,I,O,P,LEFT_BRACKET,RIGHT_BRACKET,ENTER,CAPS_LOCK,A,S,D,F,G,H,J,K,L,SEMICOLON,QUOTE,BACK_SLASH,LEFT_SHIFT,LESS,Z,X,C,V,B,N,M,COMMA,DOT,SLASH,RIGHT_SHIFT,LEFT_CTRL,LEFT_CMD,LEFT_ALT,SPACE,RIGHT_ALT,RIGHT_CMD,MENU,RIGHT_CTRL,INSERT,DELETE,HOME,END,PGUP,PGDOWN,UP,LEFT,DOWN,RIGHT,NUM_LOCK,NUMPAD_DIVIDE,NUMPAD_MULTIPLY,NUMPAD_MINUS,NUMPAD_DIGIT_7,NUMPAD_DIGIT_8,NUMPAD_DIGIT_9,NUMPAD_PLUS,NUMPAD_DIGIT_4,NUMPAD_DIGIT_5,NUMPAD_DIGIT_6,NUMPAD_DIGIT_1,NUMPAD_DIGIT_2,NUMPAD_DIGIT_3,NUMPAD_ENTER,NUMPAD_DIGIT_0,NUMPAD_DOT,ANY_SHIFT,ANY_CTRL,ANY_ALT,ANY_CMD,ANY_UP,ANY_LEFT,ANY_DOWN,ANY_RIGHT,ANY_ENTER,ANY_DELETE,ANY_INSERT,ANY_HOME,ANY_END,ANY_PGUP,ANY_PGDOWN,ANY_DIGIT_1,ANY_DIGIT_2,ANY_DIGIT_3,ANY_DIGIT_4,ANY_DIGIT_5,ANY_DIGIT_6,ANY_DIGIT_7,ANY_DIGIT_8,ANY_DIGIT_9,ANY_DIGIT_0,ANY_MINUS,ANY_EQUALS,ANY_DOT,NUM_KEYS">46</parameter>
+	<parameter name="runKey" type="switch" tooltip="Run mode activation key" group="Input" items="UNKNOWN,ESC,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,PRINTSCREEN,SCROLL_LOCK,PAUSE,BACK_QUOTE,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,DIGIT_0,MINUS,EQUALS,BACKSPACE,TAB,Q,W,E,R,T,Y,U,I,O,P,LEFT_BRACKET,RIGHT_BRACKET,ENTER,CAPS_LOCK,A,S,D,F,G,H,J,K,L,SEMICOLON,QUOTE,BACK_SLASH,LEFT_SHIFT,LESS,Z,X,C,V,B,N,M,COMMA,DOT,SLASH,RIGHT_SHIFT,LEFT_CTRL,LEFT_CMD,LEFT_ALT,SPACE,RIGHT_ALT,RIGHT_CMD,MENU,RIGHT_CTRL,INSERT,DELETE,HOME,END,PGUP,PGDOWN,UP,LEFT,DOWN,RIGHT,NUM_LOCK,NUMPAD_DIVIDE,NUMPAD_MULTIPLY,NUMPAD_MINUS,NUMPAD_DIGIT_7,NUMPAD_DIGIT_8,NUMPAD_DIGIT_9,NUMPAD_PLUS,NUMPAD_DIGIT_4,NUMPAD_DIGIT_5,NUMPAD_DIGIT_6,NUMPAD_DIGIT_1,NUMPAD_DIGIT_2,NUMPAD_DIGIT_3,NUMPAD_ENTER,NUMPAD_DIGIT_0,NUMPAD_DOT,ANY_SHIFT,ANY_CTRL,ANY_ALT,ANY_CMD,ANY_UP,ANY_LEFT,ANY_DOWN,ANY_RIGHT,ANY_ENTER,ANY_DELETE,ANY_INSERT,ANY_HOME,ANY_END,ANY_PGUP,ANY_PGDOWN,ANY_DIGIT_1,ANY_DIGIT_2,ANY_DIGIT_3,ANY_DIGIT_4,ANY_DIGIT_5,ANY_DIGIT_6,ANY_DIGIT_7,ANY_DIGIT_8,ANY_DIGIT_9,ANY_DIGIT_0,ANY_MINUS,ANY_EQUALS,ANY_DOT,NUM_KEYS">106</parameter>
+	<parameter name="jumpKey" type="switch" tooltip="Jump key" group="Input" items="UNKNOWN,ESC,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,PRINTSCREEN,SCROLL_LOCK,PAUSE,BACK_QUOTE,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,DIGIT_0,MINUS,EQUALS,BACKSPACE,TAB,Q,W,E,R,T,Y,U,I,O,P,LEFT_BRACKET,RIGHT_BRACKET,ENTER,CAPS_LOCK,A,S,D,F,G,H,J,K,L,SEMICOLON,QUOTE,BACK_SLASH,LEFT_SHIFT,LESS,Z,X,C,V,B,N,M,COMMA,DOT,SLASH,RIGHT_SHIFT,LEFT_CTRL,LEFT_CMD,LEFT_ALT,SPACE,RIGHT_ALT,RIGHT_CMD,MENU,RIGHT_CTRL,INSERT,DELETE,HOME,END,PGUP,PGDOWN,UP,LEFT,DOWN,RIGHT,NUM_LOCK,NUMPAD_DIVIDE,NUMPAD_MULTIPLY,NUMPAD_MINUS,NUMPAD_DIGIT_7,NUMPAD_DIGIT_8,NUMPAD_DIGIT_9,NUMPAD_PLUS,NUMPAD_DIGIT_4,NUMPAD_DIGIT_5,NUMPAD_DIGIT_6,NUMPAD_DIGIT_1,NUMPAD_DIGIT_2,NUMPAD_DIGIT_3,NUMPAD_ENTER,NUMPAD_DIGIT_0,NUMPAD_DOT,ANY_SHIFT,ANY_CTRL,ANY_ALT,ANY_CMD,ANY_UP,ANY_LEFT,ANY_DOWN,ANY_RIGHT,ANY_ENTER,ANY_DELETE,ANY_INSERT,ANY_HOME,ANY_END,ANY_PGUP,ANY_PGDOWN,ANY_DIGIT_1,ANY_DIGIT_2,ANY_DIGIT_3,ANY_DIGIT_4,ANY_DIGIT_5,ANY_DIGIT_6,ANY_DIGIT_7,ANY_DIGIT_8,ANY_DIGIT_9,ANY_DIGIT_0,ANY_MINUS,ANY_EQUALS,ANY_DOT,NUM_KEYS">74</parameter>
+	<parameter name="crouchKey" type="switch" tooltip="Crouch mode activation key" group="Input" items="UNKNOWN,ESC,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,PRINTSCREEN,SCROLL_LOCK,PAUSE,BACK_QUOTE,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,DIGIT_0,MINUS,EQUALS,BACKSPACE,TAB,Q,W,E,R,T,Y,U,I,O,P,LEFT_BRACKET,RIGHT_BRACKET,ENTER,CAPS_LOCK,A,S,D,F,G,H,J,K,L,SEMICOLON,QUOTE,BACK_SLASH,LEFT_SHIFT,LESS,Z,X,C,V,B,N,M,COMMA,DOT,SLASH,RIGHT_SHIFT,LEFT_CTRL,LEFT_CMD,LEFT_ALT,SPACE,RIGHT_ALT,RIGHT_CMD,MENU,RIGHT_CTRL,INSERT,DELETE,HOME,END,PGUP,PGDOWN,UP,LEFT,DOWN,RIGHT,NUM_LOCK,NUMPAD_DIVIDE,NUMPAD_MULTIPLY,NUMPAD_MINUS,NUMPAD_DIGIT_7,NUMPAD_DIGIT_8,NUMPAD_DIGIT_9,NUMPAD_PLUS,NUMPAD_DIGIT_4,NUMPAD_DIGIT_5,NUMPAD_DIGIT_6,NUMPAD_DIGIT_1,NUMPAD_DIGIT_2,NUMPAD_DIGIT_3,NUMPAD_ENTER,NUMPAD_DIGIT_0,NUMPAD_DOT,ANY_SHIFT,ANY_CTRL,ANY_ALT,ANY_CMD,ANY_UP,ANY_LEFT,ANY_DOWN,ANY_RIGHT,ANY_ENTER,ANY_DELETE,ANY_INSERT,ANY_HOME,ANY_END,ANY_PGUP,ANY_PGDOWN,ANY_DIGIT_1,ANY_DIGIT_2,ANY_DIGIT_3,ANY_DIGIT_4,ANY_DIGIT_5,ANY_DIGIT_6,ANY_DIGIT_7,ANY_DIGIT_8,ANY_DIGIT_9,ANY_DIGIT_0,ANY_MINUS,ANY_EQUALS,ANY_DOT,NUM_KEYS">107</parameter>
+	<parameter name="mouseSensitivity" type="float" tooltip="Mouse sensitivity multiplier" group="Input" min="0">0.400000006</parameter>
+	<parameter name="moveStick" type="switch" tooltip="Move stick" group="Gamepad Input" items="LEFT,RIGHT">0</parameter>
+	<parameter name="cameraStick" type="switch" tooltip="Camera stick" group="Gamepad Input" items="LEFT,RIGHT">1</parameter>
+	<parameter name="cameraStickSensitivity" type="float" tooltip="Camera stick sensitivity" group="Gamepad Input" min="0">0.800000012</parameter>
+	<parameter name="sticksDeadZone" type="float" tooltip="Sticks dead zone" group="Gamepad Input" min="0">0.300000012</parameter>
+	<parameter name="runButton" type="switch" tooltip="Run mode activation button" group="Gamepad Input" items="A,B,X,Y,BACK,START,DPAD_UP,DPAD_DOWN,DPAD_LEFT,DPAD_RIGHT,THUMB_LEFT,THUMB_RIGHT,SHOULDER_LEFT,SHOULDER_RIGHT,GUIDE,MISC1,TOUCHPAD,NUM_GAMEPAD_BUTTONS">13</parameter>
+	<parameter name="jumpButton" type="switch" tooltip="Jump button" group="Gamepad Input" items="A,B,X,Y,BACK,START,DPAD_UP,DPAD_DOWN,DPAD_LEFT,DPAD_RIGHT,THUMB_LEFT,THUMB_RIGHT,SHOULDER_LEFT,SHOULDER_RIGHT,GUIDE,MISC1,TOUCHPAD,NUM_GAMEPAD_BUTTONS">0</parameter>
+	<parameter name="crouchButton" type="switch" tooltip="Crouch mode activation button" group="Gamepad Input" items="A,B,X,Y,BACK,START,DPAD_UP,DPAD_DOWN,DPAD_LEFT,DPAD_RIGHT,THUMB_LEFT,THUMB_RIGHT,SHOULDER_LEFT,SHOULDER_RIGHT,GUIDE,MISC1,TOUCHPAD,NUM_GAMEPAD_BUTTONS">12</parameter>
+	<parameter name="useObjectBody" type="toggle" tooltip="You can use current node to customize the body.
+It should have a dummy body and a capsule shape assigned.
+In case of incorrect settings of the specified custom body or shape, a default body and capsule shape shall be created instead." group="Body">0</parameter>
+	<parameter name="capsuleRadius" type="float" tooltip="Radius of the capsule shape" group="Body" useObjectBody="0">0.300000012</parameter>
+	<parameter name="capsuleHeight" type="float" tooltip="Height of the capsule shape (cylindrical part only)" group="Body" useObjectBody="0">1.14999998</parameter>
+	<parameter name="physicsIntersectionMask" type="mask" tooltip="Mask used for selective detections of physics intersections (between physical objects with bodies and collider shapes, or ray intersections with collider geometry)" group="Body" flags="physics_intersection" useObjectBody="0">1</parameter>
+	<parameter name="collisionMask" type="mask" tooltip="Mask used for selective collision detection" group="Body" flags="collision" useObjectBody="0">1</parameter>
+	<parameter name="exclusionMask" type="mask" tooltip="Mask used for exclusion collision detection" group="Body" flags="collision" useObjectBody="0">0</parameter>
+	<parameter name="cameraMode" type="switch" tooltip="Camera mode" group="Camera" items="NONE,CREATE_AUTOMATICALLY,USE_EXTERNAL">1</parameter>
+	<parameter name="camera" type="node" tooltip="Camera" group="Camera" cameraMode="2" filter="PlayerDummy"/>
+	<parameter name="fov" type="float" tooltip="Fov" group="Camera" min="0" max="180" cameraMode="1">60</parameter>
+	<parameter name="nearClipping" type="float" tooltip="Near clipping" group="Camera" min="0" cameraMode="1">0.00999999978</parameter>
+	<parameter name="farClipping" type="float" tooltip="Far clipping" group="Camera" min="0" cameraMode="1">1000</parameter>
+	<parameter name="cameraPositionOffset" type="vec3" tooltip="Camera position offset" group="Camera" cameraMode="1">0 0 1.64999998</parameter>
+	<parameter name="minVerticalAngle" type="float" tooltip="The minimum vertical angle of the camera (look down)" group="Camera" min="-89.9" max="89.9" cameraMode="1,2">-89.9000015</parameter>
+	<parameter name="maxVerticalAngle" type="float" tooltip="The maximum vertical angle of the camera (look up)" group="Camera" min="-89.9" max="89.9" cameraMode="1,2">89.9000015</parameter>
+	<parameter name="useJump" type="toggle" tooltip="Use jump" group="Movement">1</parameter>
+	<parameter name="useCrouch" type="toggle" tooltip="Use crouch" group="Movement">1</parameter>
+	<parameter name="useRun" type="toggle" tooltip="Use run" group="Movement">1</parameter>
+	<parameter name="useRunDefault" type="toggle" tooltip="Use run default" group="Movement" useRun="1">0</parameter>
+	<parameter name="crouchSpeed" type="float" tooltip="Crouching speed of the player" group="Movement" min="0" useCrouch="1">1</parameter>
+	<parameter name="walkSpeed" type="float" tooltip="Walking speed of the player" group="Movement" min="0">3</parameter>
+	<parameter name="runSpeed" type="float" tooltip="Running speed of the player" group="Movement" min="0" useRun="1">6</parameter>
+	<parameter name="groundAcceleration" type="float" tooltip="Horizontal ground acceleration of the player" group="Movement" min="0">25</parameter>
+	<parameter name="airAcceleration" type="float" tooltip="Horizontal air acceleration of the player" group="Movement" min="0">10</parameter>
+	<parameter name="groundDamping" type="float" tooltip="Horizontal ground damping of the player&apos;s speed" group="Movement" min="0">25</parameter>
+	<parameter name="airDamping" type="float" tooltip="Horizontal air damping of the player&apos;s speed" group="Movement" min="0">0.0500000007</parameter>
+	<parameter name="jumpPower" type="float" tooltip="Jumping power of the player" group="Movement" min="0" useJump="1">6</parameter>
+	<parameter name="crouchJumpPower" type="float" tooltip="Jumping crouch power of the player" group="Movement" min="0" useJump="1" useCrouch="1">3</parameter>
+	<parameter name="crouchHeight" type="float" tooltip="Crouching height of the player" group="Movement" min="0" useCrouch="1">1</parameter>
+	<parameter name="crouchTransitionTime" type="float" tooltip="Time the player transition to the crouching state and vice versa" group="Movement" min="0" useCrouch="1">0.300000012</parameter>
+	<parameter name="maxGroundAngle" type="float" tooltip="Maximum surface angle to which the player is considered to be standing on the ground" group="Movement" min="0" max="90">60</parameter>
+	<parameter name="maxCeilingAngle" type="float" tooltip="Ьaximum surface angle to which the player is considered to be touching the ceiling" group="Movement" min="0" max="90">60</parameter>
+	<parameter name="checkMoveRayOffset" type="float" tooltip="Check move ray offset" group="Movement" min="0" max="0.1">0.00999999978</parameter>
+	<parameter name="checkMoveMask" type="mask" tooltip="Check move mask" group="Movement" flags="intersection">1</parameter>
+	<parameter name="wallStopSlidingAngle" type="float" tooltip="Wall stop sliding angle" group="Movement" min="0" max="90">15</parameter>
+	<parameter name="useAutoStepping" type="toggle" tooltip="Toggles automatic walking up and down certain obstacles (stairs, for example)" group="Auto Stepping">1</parameter>
+	<parameter name="minStepHeight" type="float" tooltip="Minimum height for automatic walk up.
+Enables avoiding false positives on flat surfaces." group="Auto Stepping" min="0" useAutoStepping="1">0.0500000007</parameter>
+	<parameter name="maxStepHeight" type="float" tooltip="Maximum height for automatic walk up" group="Auto Stepping" min="0" useAutoStepping="1">0.300000012</parameter>
+	<parameter name="maxStairAngle" type="float" tooltip="Max stair angle" group="Auto Stepping" min="0" useAutoStepping="1">30</parameter>
+	<parameter name="checkStairRayOffset" type="float" tooltip="Check stair ray offset" group="Auto Stepping" min="0" useAutoStepping="1">0.100000001</parameter>
+	<parameter name="stairsDetectionAngle" type="float" tooltip="Stairs detection angle" group="Auto Stepping" min="0" max="90" useAutoStepping="1">45</parameter>
+	<parameter name="stairDetectionMask" type="mask" tooltip="Stair detection mask" group="Auto Stepping" flags="intersection">1</parameter>
+	<parameter name="useObjectsInteraction" type="toggle" tooltip="Toggles physical interaction with rigid bodies on anf off" group="Objects Interaction">1</parameter>
+	<parameter name="impulseMultiplier" type="float" tooltip="Impulse multiplier to be applied to a rigid body colliding with the player" group="Objects Interaction" min="0" max="1" useObjectsInteraction="1">0.0500000007</parameter>
+	<parameter name="playerFps" type="int" tooltip="Minimum update rate for the player (in number of frames per second).
+If this value exceeds the current framerate, the player will be updated several times per frame" group="Advanced Settings" min="15" max="240">60</parameter>
+	<parameter name="collisionIterations" type="int" tooltip="Number of iterations to resolve collisions" group="Advanced Settings" min="1" max="128">4</parameter>
+	<parameter name="contactsBufferSize" type="int" tooltip="Maximum number of contacts to be processed for collisions" group="Advanced Settings" min="4" max="1000">16</parameter>
+	<parameter name="heavyContactsCount" type="int" tooltip="Maximum number of contacts up to which the number of iterations specified above shall be used.
+After exceeding this value a single iteration shall be used to avoid performance degradation." group="Advanced Settings" min="4" max="1000">100</parameter>
+	<parameter name="debugCamera" type="DebugCamera" group="Debug"/>
+	<parameter name="debugVisualizer" type="DebugVisualizer" group="Debug"/>
+	<parameter name="debugProfiler" type="DebugProfiler" group="Debug"/>
+	<parameter name="debugColors" type="DebugColors" group="Debug">
+		<parameter name="playerShape">0 0 1 0.0979999974</parameter>
+		<parameter name="playerDirection">1 1 0 1</parameter>
+		<parameter name="cameraColor">0 1 1 1</parameter>
+		<parameter name="appliedHorizontalVelocity">0 0 0 1</parameter>
+		<parameter name="appliedVerticalVelocity">0.5 0.5 0.5 1</parameter>
+		<parameter name="upPassContacts">0 1 1 1</parameter>
+		<parameter name="sidePassContacts">1 0 1 1</parameter>
+		<parameter name="downPassContacts">1 0 0 1</parameter>
+		<parameter name="isGround">1 0 0 1</parameter>
+		<parameter name="isCeiling">0 1 0 1</parameter>
+		<parameter name="isCrouch">0 0 1 1</parameter>
+		<parameter name="averageSpeed">1 1 0 1</parameter>
+		<parameter name="autoStepping">0.660000026 0.330000013 0 1</parameter>
+	</parameter>
+</property>

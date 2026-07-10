@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+		<GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+		<RootNamespace>UnigineApp</RootNamespace>
+		<StartupObject>UnigineApp.UnigineApp</StartupObject>
+		<WarningLevel>4</WarningLevel>
+		<OutputPath>bin</OutputPath>
+		<EnableDefaultItems>false</EnableDefaultItems>
+		<SkipPostBuild>false</SkipPostBuild>
+		<Platforms>x64</Platforms>
+		<PlatformTarget>x64</PlatformTarget>
+		<DebugType>portable</DebugType>
+		<DOTNET_HOST_PATH Condition="&apos;$(DOTNET_HOST_PATH)&apos; == &apos;&apos;">dotnet</DOTNET_HOST_PATH>
+	</PropertyGroup>
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos;">
+		<AssemblyName>DvigAtel_x64d</AssemblyName>
+		<DebugSymbols>true</DebugSymbols>
+		<Optimize>false</Optimize>
+		<DefineConstants>TRACE;DEBUG;</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos;">
+		<Reference Include="UnigineSharp_x64d">
+			<SpecificVersion>false</SpecificVersion>
+			<HintPath>bin\UnigineSharp_x64d.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Release&apos;">
+		<AssemblyName>DvigAtel_x64</AssemblyName>
+		<Optimize>true</Optimize>
+		<DefineConstants>TRACE;NDEBUG;</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Release&apos;">
+		<Reference Include="UnigineSharp_x64">
+			<SpecificVersion>false</SpecificVersion>
+			<HintPath>bin\UnigineSharp_x64.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="data/trigger_code/PorchTrigger.cs"/>
+		<Compile Include="data/csharp_template/FP_controller/components/FirstPersonController.cs"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="source\AppEditorLogic.cs"/>
+		<Compile Include="source\AppSystemLogic.cs"/>
+		<Compile Include="source\AppWorldLogic.cs"/>
+		<Compile Include="source\main.cs"/>
+	</ItemGroup>
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_x64d.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_x64.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Release&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
+	</Target>
+</Project>

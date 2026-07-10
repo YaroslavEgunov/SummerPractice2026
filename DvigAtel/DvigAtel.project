@@ -1,0 +1,5023 @@
+{
+    "edit_settings": {
+        "arguments": "",
+        "debug": false,
+        "microprofile_enabled": false
+    },
+    "id": "113f576c-2f2a-42e8-9200-e0dea92c99de",
+    "project_settings": {
+        "addons": [
+        ],
+        "ai_docs": false,
+        "api": "csdnc",
+        "assets": [
+        ],
+        "build_tool": false,
+        "component_system": false,
+        "default_world": "DvigAtel",
+        "demo": "",
+        "editor_plugin": false,
+        "engine_binaries": "development",
+        "engine_plugin": false,
+        "engine_plugin_name": "",
+        "engine_plugin_vendor": "",
+        "files": [
+            {
+                "file": ".vscode",
+                "hash": "",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": ".vscode/launch.json",
+                "hash": "17836025460611467",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": ".vscode/settings.json",
+                "hash": "1783602546001480",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": ".vscode/tasks.json",
+                "hash": "17836025460681227",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "DvigAtel.csproj",
+                "hash": "17836025464543065",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "DvigAtel.sln",
+                "hash": "17836025460761043",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "Properties",
+                "hash": "",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "Properties/launchSettings.json",
+                "hash": "1783602546083197",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "bin",
+                "hash": "",
+                "tags": [
+                    "unigine",
+                    "binaries",
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/ApplicationLauncher_x64.exe",
+                "hash": "17836025101021123840",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/EditorCore_x64.dll",
+                "hash": "178360251066518525440",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/EditorCore_x64.pdb",
+                "hash": "178360251073823416832",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/EditorCore_x64d.dll",
+                "hash": "178360251085736519680",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/EditorCore_x64d.pdb",
+                "hash": "1783602519626312152064",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Editor_x64.exe",
+                "hash": "17836025102685537024",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Editor_x64.pdb",
+                "hash": "17836025102984812800",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Editor_x64d.exe",
+                "hash": "17836025103308788240",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Editor_x64d.pdb",
+                "hash": "178360251056362484480",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Qt5Concurrent.dll",
+                "hash": "178360251022928672",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Qt5Core.dll",
+                "hash": "17836025101376105088",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Qt5Gui.dll",
+                "hash": "17836025101616464000",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Qt5Network.dll",
+                "hash": "17836025102271301504",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Qt5Widgets.dll",
+                "hash": "17836025102195530624",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64.deps.json",
+                "hash": "1783602520028440",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64.dll",
+                "hash": "17836025200184798720",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64.pdb",
+                "hash": "17836025200261534804",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64.xml",
+                "hash": "17836025459925908591",
+                "tags": [
+                    "unigine_utils"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64d.deps.json",
+                "hash": "1783602520108443",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64d.dll",
+                "hash": "17836025200975083904",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64d.pdb",
+                "hash": "17836025201061938024",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineSharp_x64d.xml",
+                "hash": "17836025459975908591",
+                "tags": [
+                    "unigine_utils"
+                ]
+            },
+            {
+                "file": "bin/UnigineWrapper_x64.dll",
+                "hash": "17836025197563679488",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineWrapper_x64.pdb",
+                "hash": "17836025197817352320",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineWrapper_x64d.dll",
+                "hash": "17836025198026843136",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/UnigineWrapper_x64d.pdb",
+                "hash": "178360251994835581952",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Unigine_x64.dll",
+                "hash": "178360250747482228480",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Unigine_x64.pdb",
+                "hash": "1783602508381363433984",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Unigine_x64d.dll",
+                "hash": "1783602508769104327424",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/Unigine_x64d.pdb",
+                "hash": "1783602510087418590720",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/VarjoLib.dll",
+                "hash": "1783602520304231424",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64.deps.json",
+                "hash": "1783602520166842",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64.dll",
+                "hash": "1783602520162431872",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64.pdb",
+                "hash": "178360252016411040",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64.runtimeconfig.json",
+                "hash": "1783602520168253",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64d.deps.json",
+                "hash": "1783602520157849",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64d.dll",
+                "hash": "1783602520154431872",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64d.pdb",
+                "hash": "178360252015611372",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/cspropgen_x64d.runtimeconfig.json",
+                "hash": "1783602520158147",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/d3dcompiler_47.dll",
+                "hash": "17836025202394524480",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/dxcompiler.dll",
+                "hash": "178360252029517367600",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/dxil.dll",
+                "hash": "17836025203021421856",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/imageformats",
+                "hash": "",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/imageformats/qgif.dll",
+                "hash": "178360251010732768",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/libeay32.dll",
+                "hash": "17836025102452101248",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/msvcp140.dll",
+                "hash": "1783602520172633152",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/openal32.dll",
+                "hash": "1783602520183962560",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/platforms",
+                "hash": "",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/platforms/qwindows.dll",
+                "hash": "17836025101161446400",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/plugins",
+                "hash": "",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine",
+                "hash": "",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxExporter",
+                "hash": "",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_x64.dll",
+                "hash": "17836025463117408384",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_x64.pdb",
+                "hash": "17836025463345779456",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_x64d.dll",
+                "hash": "17836025463699937152",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_x64d.pdb",
+                "hash": "178360254640210276864",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxImporter",
+                "hash": "",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_x64.dll",
+                "hash": "17836025461157807744",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_x64.pdb",
+                "hash": "17836025461376033408",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_x64d.dll",
+                "hash": "178360254617410897664",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_x64d.pdb",
+                "hash": "178360254622614659584",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/GLTFImporter",
+                "hash": "",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_x64.dll",
+                "hash": "1783602546245540416",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_x64.pdb",
+                "hash": "1783602546251806912",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_x64d.dll",
+                "hash": "17836025462571196800",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_x64d.pdb",
+                "hash": "17836025462846737920",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/ssleay32.dll",
+                "hash": "1783602510233353792",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/styles",
+                "hash": "",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/styles/qwindowsvistastyle.dll",
+                "hash": "1783602510109136192",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/vcruntime140.dll",
+                "hash": "178360252017887888",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "data",
+                "hash": "",
+                "tags": [
+                    "project_data",
+                    "unigine_data",
+                    "unigine"
+                ]
+            },
+            {
+                "file": "data/.cache_textures",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/00",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/00/001aa552ae1a40ccea9ed874a03721bf01053f8f.texture",
+                "hash": "178360254495599",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/02",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/02/02358b899a7873ad172e9dd61476448db6e23db7.texture",
+                "hash": "1783602544956176",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/05",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/05/05462bf386517bdde2ee432e50c888cd653f1f42.texture",
+                "hash": "178360254495774",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/08",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/08/08ab303bef9e1ad3a857dcd90e9e41c17d89bc44.texture",
+                "hash": "1783602544958456",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/0c",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/0c/0c5c7dca62e0f075bc7497f81bdfe9aec6b2ee1b.texture",
+                "hash": "1783602544959305",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/13",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/13/13a5cfbdb0fa29542b384848c12daf762fe10b84.texture",
+                "hash": "1783602544960111",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/14",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/14/1482a8f602c5b1238b5c1d2403261f57c765f15e.texture",
+                "hash": "1783602544961247",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/14/14c97f31ff20eedca3c2bc8b8e04e86e1a0894f5.texture",
+                "hash": "17836025449621363",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/17",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/17/1797764a1270321c617dd57b6f62e5e813e99ba8.texture",
+                "hash": "1783602544964268",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/1d",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/1d/1d40b84cb859f1a58e5d9f2184f5dfd6d5dfc81d.texture",
+                "hash": "1783602544965322",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/1d/1d69d10b4e2bf2ee70b31d7533b1105000bca76f.texture",
+                "hash": "17836025449668212",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/20",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/20/200386361225d7765ece91fb69d383014d0d2029.texture",
+                "hash": "17836025449671120",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/22",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/22/22012f675ac24500e6f928e35455fbf297747c27.texture",
+                "hash": "1783602544969205",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/26",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/26/26da2af870934f62e8d8e6cc83d390c8cd94abbd.texture",
+                "hash": "1783602544970312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/26/26e4f4d3f5aea60d340d85f378bda7b69066ba25.texture",
+                "hash": "1783602544971272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/27",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/27/273a674fad0cb1658ca1d293b73e48e3f6e629bd.texture",
+                "hash": "1783602544972184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/29",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/29/2997e40822c8b7c7ec48927a7464ff91588cb3bc.texture",
+                "hash": "1783602544973290",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/29/29b74b27b610d5fb7a20cb191a50a89fe7520e00.texture",
+                "hash": "1783602544973214",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/29/29e77d1349b146da998a9ccd90b9936a299d3ceb.texture",
+                "hash": "1783602544975184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2a",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2a/2a1fd85054ccff517ff8c967525de5aff0056bb4.texture",
+                "hash": "1783602544976128",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2a/2a2f379487a69cc242e329b9d78583e1e51be54e.texture",
+                "hash": "1783602544977184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2a/2a3d6d41edb8ac91336265af489c891e9d772658.texture",
+                "hash": "1783602544978111",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2b/2ba3d92b408d6b164bcb300f790cae75cbea4cf5.texture",
+                "hash": "1783602544979272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2d",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2d/2dd69ef07d8cd9966e8214f04566bc252e3c99a9.texture",
+                "hash": "1783602544980174",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2f",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2f/2f3de8b585f9313d083b6351fd1167f24aa9c490.texture",
+                "hash": "1783602544981190",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/2f/2f607805cca409a0ed39307fce1003d27446d109.texture",
+                "hash": "17836025449818457",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/30",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/30/3029b50b55b2d3e5d7ae2c4536836c220955b5b4.texture",
+                "hash": "1783602544983287",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/32",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/32/32e9a2dce08f292cedf2dc9d208b019f27a586a0.texture",
+                "hash": "1783602544984301",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/33",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/33/33e6afd08b2bc775cdbb530e72a3667b64e6a9be.texture",
+                "hash": "1783602544985258",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/34",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/34/34175fbd86edd102ab7fa17f701053b9a36c8ed6.texture",
+                "hash": "1783602544986238",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/35",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/35/35d987f84c0681c9b575fd13edfc11a03cf1a3bb.texture",
+                "hash": "1783602544987148",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/37",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/37/37c8f7a86e8eea50a17d646f8df2502d1c0bcf83.texture",
+                "hash": "1783602544988111",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/3a",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/3a/3a35245f1e97be23accee53442c6060b9d67e8eb.texture",
+                "hash": "1783602544989338",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/3a/3ac02fc875c310878d1b943add8e9651fa79db7c.texture",
+                "hash": "1783602544989443",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/3c",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/3c/3c39486f310adb027070de79a49f75849b3e8313.texture",
+                "hash": "17836025449918268",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/40",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/40/402da8fad66b8a38459d17751bc68613b40a59ea.texture",
+                "hash": "1783602544992566",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/40/40a87da144af43d809a26a48d571fc15e32f4649.texture",
+                "hash": "1783602544993312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/42",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/42/4227c53bb3cc795eb05a9125737a1040525b469f.texture",
+                "hash": "1783602544994272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/43",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/43/434ab133edf4b06c916e3d36bd646d04746da384.texture",
+                "hash": "1783602544995111",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/48",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/48/4897ab70a5ce5fa42d8d1df686477d56fad5a162.texture",
+                "hash": "1783602544996238",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4a",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4a/4a4d3bb3387c2e545b0d91fedc839111e5c21a91.texture",
+                "hash": "1783602544998369",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4a/4ad9b94d61fe5819fd6436ee3490736745d3be0e.texture",
+                "hash": "1783602544999184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4b/4bfeb66f17c243d0944d4822fd16b665988f92ad.texture",
+                "hash": "1783602544999184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4c",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4c/4c773a07e2054239168a5187d0ed71ad10db3c99.texture",
+                "hash": "1783602545000264",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4e",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/4e/4eab92e095b258063d224fd8feed06f14292b875.texture",
+                "hash": "1783602545002184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/50",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/50/50e9cbe4284624d6436da341e0b2ae11a2542243.texture",
+                "hash": "1783602545002184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/52",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/52/5219d6ddb5dbd1520e843a369ad2b64326bb24e2.texture",
+                "hash": "1783602545003190",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/52/52f38ec6b14bcb981ade156a36d1b7e739f7412c.texture",
+                "hash": "1783602545004272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/53",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/53/5350f4d903a2f858ef22d23ec214d24e9eefa46c.texture",
+                "hash": "1783602545005272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/55",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/55/554fa1b16c38379783eca1193910a623c56bda4a.texture",
+                "hash": "1783602545006183",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/55/55e13965188d56bf2ed302796c9c1aed4fbef681.texture",
+                "hash": "1783602545007203",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5b/5b29a40c7a150ffb6361c51e7cdde9e5d6421200.texture",
+                "hash": "1783602545009229",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5c",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5c/5c3ebe9af0f9d5b3d7cf1cde772482c94638bd6c.texture",
+                "hash": "1783602545010381",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5c/5c4cccedf7d047b63b9f6ff8e17f4d46bc703f86.texture",
+                "hash": "1783602545010385",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5c/5c850013a9101fad1758f061d105f588dd1cdb70.texture",
+                "hash": "1783602545012736",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5f",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/5f/5f88b453b0694618fda82a50f745114ae4f4f2e4.texture",
+                "hash": "1783602545013272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/60",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/60/608a8dc4c5a4b83bf534a24c501b2190f73fd599.texture",
+                "hash": "1783602545014372",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/61",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/61/61b0b59df82cb279bd434ebf41e02e1eaed10c19.texture",
+                "hash": "17836025450152104",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/62",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/62/62d22818c89b9c4beb0394181b3d87db43f508d3.texture",
+                "hash": "1783602545016312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/68",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/68/687d64ea30955f5fb0cc46f68dfc256299f8d1b9.texture",
+                "hash": "17836025450181201",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/68/68ec9d54345668a38a6e35a66a9dd0cdeba93bc8.texture",
+                "hash": "1783602545019223",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/69",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/69/692dbb7d56d633e22551bd47f4d92cd2d498270d.texture",
+                "hash": "1783602545020172",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6b/6b30c889824ed90d91845c8f3cb7825e5f33ef91.texture",
+                "hash": "1783602545020263",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6c",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6c/6c10a7ccecca9a2170821e145fe1509368162c6e.texture",
+                "hash": "1783602545021229",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6d",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6d/6d057be675fe9fc6e79842ed26dcc7ac341c6002.texture",
+                "hash": "1783602545023180",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6e",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/6e/6e91f2d2b719f409b4dcedd4ac1d7f2325015a26.texture",
+                "hash": "1783602545024272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/71",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/71/71072b09cfdc22269143e05fa57467d2458d3acf.texture",
+                "hash": "17836025450252104",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/73",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/73/73835d23b66f39eee5db1809aa9a383510ff871e.texture",
+                "hash": "1783602545026184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/74",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/74/7473de46473d26ffd0542dbe1e7a3b54710b85cc.texture",
+                "hash": "1783602545027184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/75",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/75/751f5d9e449a632ea567dc7983da510b94f0b1ed.texture",
+                "hash": "1783602545027183",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/76",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/76/766f718ab7daf7b5a6427bb9d2559d3558ca331c.texture",
+                "hash": "1783602545028427",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/77",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/77/7724e20b1de4447268e4b36754f7f843fd238c51.texture",
+                "hash": "1783602545030184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/78",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/78/780029a6196e2eec9f6a500f98a3da992a393d32.texture",
+                "hash": "1783602545031175",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/78/78592c1ce78ec682e89f5558ff40fcf7a8deae68.texture",
+                "hash": "1783602545032184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/79",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/79/7963ca5d8e722d27406a72c121dc36fa233ed3b1.texture",
+                "hash": "1783602545033184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7a",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7a/7a524e344adcf1c64aac9ba8feb410ab624d0ef9.texture",
+                "hash": "178360254503416656",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7a/7ad83b8398090022d601853170bc5ddbfb9b1c82.texture",
+                "hash": "1783602545036173",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7b/7b6393ce9c7f88d55c3ac4307e4609cf831cece2.texture",
+                "hash": "17836025450378216",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7f",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7f/7f007b6ade028423fffa18e4fec82097418ea60c.texture",
+                "hash": "178360254503899",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7f/7f47c8d6e46f8545705795d5e35b65c3651356ff.texture",
+                "hash": "1783602545039312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/7f/7f881940897e7e9f6361d580766b1acbf205ca86.texture",
+                "hash": "1783602545040272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/81",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/81/81575c3b86aea232684b8582bd312602f8d4fbc1.texture",
+                "hash": "1783602545042184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/82",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/82/8232531f5777262a63402778690f7518c9f13834.texture",
+                "hash": "1783602545043456",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/82/82fb4683e414ba063e30c9ad87291f2886d77867.texture",
+                "hash": "1783602545043272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/83",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/83/837fb41b70ad8a04bbceacfcea1b2bc1698b4eaf.texture",
+                "hash": "1783602545044276",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/84",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/84/84543662d1f2c25999e347e4a0e271f3c2108eb6.texture",
+                "hash": "1783602545045232",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/88",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/88/8822874216026cc7b2b61784d36abee999508e06.texture",
+                "hash": "1783602545046319",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/88/88c26cc25544c3b1ada382ba3c6822c3e5392c04.texture",
+                "hash": "1783602545047146",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/89",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/89/89f1a2df6c6012b2d824d2696e6478b4a934cc83.texture",
+                "hash": "17836025450491348",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/8b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/8b/8baa0631703930d425599a934979dc1b77548c3c.texture",
+                "hash": "1783602545050456",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/8e",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/8e/8e31d3f3022488b64088689d145fd158e44da4d7.texture",
+                "hash": "17836025450518437",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/8f",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/8f/8f3486647d7a2b0372ed4b412ae1f28afbcdffa5.texture",
+                "hash": "1783602545052232",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/8f/8f38428c5917842d6c60b140685947310369edf0.texture",
+                "hash": "1783602545053348",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/90",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/90/9073faae5cb638004eef27ecfd0e7001583bfb5c.texture",
+                "hash": "1783602545054269",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/91",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/91/9154446becf4434fcabf82177bb1532fd0124fad.texture",
+                "hash": "17836025450553798",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/92",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/92/9211d3b2871938fac36f048de401c0db0a4ea311.texture",
+                "hash": "1783602545056312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/93",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/93/936e0e8b52c955d16c2b34527a62906a8cf1a656.texture",
+                "hash": "1783602545058383",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/94",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/94/94af36ea5dd8c3a101ff4fa5de43db680ef0cba1.texture",
+                "hash": "1783602545059312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/96",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/96/9632876d2b9fee295c00eb4edde19b7aa44d9966.texture",
+                "hash": "1783602545059456",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9b/9baa3e95ea88cd4a62620bb25d2a6b08ad8e9655.texture",
+                "hash": "178360254506099",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9c",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9c/9c3ce4cbe2acc28cc1f63f6e0e91ab8598e65e59.texture",
+                "hash": "1783602545061270",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9d",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9d/9d5da1a2383f9772490b19116acc3dce82c30d1c.texture",
+                "hash": "1783602545062272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9e",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9e/9eaa0595b4c20c7fac9661bfc0cfa59e1c5289ac.texture",
+                "hash": "17836025450634208",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9f",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/9f/9f2f4594005da4e941a5d275268a8ebdea663b79.texture",
+                "hash": "1783602545065184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a1",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a1/a1c1146fc3f693fcd7bb67b0bb9c50657773b132.texture",
+                "hash": "1783602545066312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a1/a1d66dcefae80e727dc158b14e84f803aea0a2b4.texture",
+                "hash": "1783602545067184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a4",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a4/a464bf4eb11d243a8b4df30531fde7b278d580a9.texture",
+                "hash": "1783602545068272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a4/a493dbe05e14bdfe661cb61cc00c19c065dc965d.texture",
+                "hash": "1783602545069246",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a5",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a5/a543adc9eb319e3f88d3ef80a6cdfa10390cd26b.texture",
+                "hash": "1783602545070107",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a5/a5f5da9b8ae7b8b810c6714fd8bb208bda61bfea.texture",
+                "hash": "1783602545072292",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a6",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a6/a69f6434c9cb8bfe9fe0cd8af20df6dfd2d0b756.texture",
+                "hash": "1783602545073115",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a7",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a7/a77e4576162cc40f0c76811c6aec65c2a4439850.texture",
+                "hash": "1783602545074184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a8",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a8/a8106e01d8743fe2b0601f5d30c9eaf6cee2a4ca.texture",
+                "hash": "1783602545075190",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a8/a8ecfc44bc6bd2a9712340a6280a064e6722e8c4.texture",
+                "hash": "1783602545076177",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a9",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/a9/a9531f67c84dda726ba2615d377a23a83a9d9c64.texture",
+                "hash": "1783602545077269",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/aa",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/aa/aabd101dcf4952d811423857ffbd79ca9c4e9ea1.texture",
+                "hash": "17836025450781398",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ab",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ab/ab29875e5d1ba9e34d60ab8b7ff2829b1665d8a3.texture",
+                "hash": "1783602545079456",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ac",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ac/ac1a3a438bd1e86b966d072a9f16e2703460be21.texture",
+                "hash": "1783602545081104",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ac/ac61500693d867ad17a02528df46c6672623109a.texture",
+                "hash": "1783602545082195",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ad",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ad/ad422d6c9db6ccf3c494992e89463b5bbfa90005.texture",
+                "hash": "1783602545082370",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b0",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b0/b0b775c2ca1463c6bbe4dd58bb7f8c4bb976c201.texture",
+                "hash": "1783602545083182",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b0/b0d94d3515b2e88572861ff7cd6966471dc4a90f.texture",
+                "hash": "1783602545084224",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b1",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b1/b1114d0c046f1d7c4df1a44ae88c8ae95e69e3e0.texture",
+                "hash": "1783602545086110",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b3",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b3/b3db7f8b07c4a9f1746a7d5ac3937fadafd3c0c5.texture",
+                "hash": "1783602545086211",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b5",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b5/b54a67af925478f0947c2fcb4682cc89f2df454e.texture",
+                "hash": "1783602545087366",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b6",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b6/b6674b045b8932059769ee326a8eb293037aeb19.texture",
+                "hash": "1783602545088438",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b9",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/b9/b997d94fdd5ffe76ec7e3c3c45ab7d50722b6924.texture",
+                "hash": "1783602545089174",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/bb",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/bb/bb5741d0ae75e126d67b6a518218211298931934.texture",
+                "hash": "1783602545091272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/bf",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/bf/bf8a1014541b1072694c122404e4604dd578da2b.texture",
+                "hash": "1783602545092249",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/c3",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/c3/c3b643ae67a5b7356b055f101825272f1785aac2.texture",
+                "hash": "17836025450938334",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/c6",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/c6/c6074bb3d39ec720dbe197e105bca0edbc9d10e6.texture",
+                "hash": "1783602545094411",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/c6/c62764d2f4c2320e40f2cea92bc20b77baca1d27.texture",
+                "hash": "1783602545095456",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/c6/c6ae9f2607679adafc2373ded542c27ef6cb1509.texture",
+                "hash": "17836025450961592",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cb",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cb/cb3dbb4e699ac80e4405d1d1cfe838e8a6819c5e.texture",
+                "hash": "1783602545097109",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cb/cb63a59ed35b9c747cd25c37a47412a55cf9691b.texture",
+                "hash": "1783602545099568",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cc",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cc/cc9700e0e0533ebfec503d122b993949182af214.texture",
+                "hash": "17836025451008265",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cd",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cd/cd518d3796c6bd6e996a25f695bace323b8f2b69.texture",
+                "hash": "1783602545101709",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ce",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ce/ce1aa1606a9db211bdc08b918cd68e08db5c47c8.texture",
+                "hash": "1783602545102272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cf",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/cf/cf2ba2910494fabc504296eb94e53f4e51ea3e55.texture",
+                "hash": "17836025451038276",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d0",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d0/d038f7e88295202f8d5905995a4a80dbadadbd4b.texture",
+                "hash": "17836025451042104",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d0/d076fbb0cef1db4f86cf9062e212545941a9b1e4.texture",
+                "hash": "17836025451058447",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d1",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d1/d1071f86763e3439995d99c1826693262fac80f4.texture",
+                "hash": "1783602545106184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d1/d12281c346ee3c46a561e6ed318f1b6872c6c7a7.texture",
+                "hash": "17836025451088137",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d1/d15782a509aae84ba85cebcb4e69571f60a7e33a.texture",
+                "hash": "1783602545109190",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d6",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d6/d664880676523fad3be01d286b565e67517dc89a.texture",
+                "hash": "17836025451101438",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d7",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d7/d798cb1e62ee2d61a673b602b3fd94acc56b564b.texture",
+                "hash": "1783602545111123",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/d7/d7c2274d6378a0480073c707d34bd8ba59cd10d1.texture",
+                "hash": "17836025451128245",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/df",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/df/df7a5f2766dedfe11a5f2a91917ef4deff3baa5b.texture",
+                "hash": "17836025451131686",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e0",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e0/e038d46e26ad35b1e7775c22e5377971790cb075.texture",
+                "hash": "1783602545115107",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e1",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e1/e16a40067ebd143a160fc69c08ebefc6cda4d53c.texture",
+                "hash": "1783602545116272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e2",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e2/e237a1333473ddcc4729b8cfa3bee53e75991b77.texture",
+                "hash": "1783602545116111",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e3",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e3/e3120f350170783531c278607a4b366265cfbfc9.texture",
+                "hash": "17836025451171222",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e5",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e5/e538f959ed5e12e49e00c0f3671491b6e54edd9d.texture",
+                "hash": "1783602545118229",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e7",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e7/e7653bca291f78a1a4d1398c96a8a77b70bd769e.texture",
+                "hash": "17836025451208459",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e9",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e9/e996fd971d20ec4b4a1b21e0959c8e3e52acce9b.texture",
+                "hash": "1783602545121664",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/e9/e9bbe3191da0c423f17ea1e3f877307ac3b506d0.texture",
+                "hash": "1783602545122312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ea",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ea/ea515587c4fe8099a29d8c3fa333da5f7678de31.texture",
+                "hash": "1783602545123150",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ea/eaf146692cfe5cb4ebdd6083d7ec0c066ccbf3ad.texture",
+                "hash": "17836025451248426",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ed",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ed/edf5dbe16c25c3185d9ce7b15e99469442484856.texture",
+                "hash": "1783602545125260",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ef",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/ef/ef22c5ac89c1851b55ee77be4ecebc05f8557da0.texture",
+                "hash": "17836025451251014",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f0",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f0/f0cb51ed798b8a6885d26aa748ebe7da93149571.texture",
+                "hash": "17836025451278304",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f2",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f2/f2211973347c1036ea774a1de8da44d8c00a8257.texture",
+                "hash": "17836025451288368",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f2/f225c61ccb2a78ee75153c32ff600758eeffa623.texture",
+                "hash": "1783602545129456",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f3",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f3/f34fddc5b2703f40fa58ee4eaa919efa35ada492.texture",
+                "hash": "1783602545131312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f3/f3ac6051b2791d7c6f70daab36fd300e99cdf815.texture",
+                "hash": "17836025451328294",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f4",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f4/f4ad89d310b325eb04dda69abdc763a2b8b4c3cf.texture",
+                "hash": "1783602545133312",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/f4/f4ee40b8c4ae8bbefa997d03d00b5341ea459b28.texture",
+                "hash": "1783602545134940",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fb",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fb/fb5a2298020b7d808846711ca13c57f8613732e9.texture",
+                "hash": "1783602545136272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fb/fbbf11e539eae89271f4774daca80cb2eb370ddc.texture",
+                "hash": "1783602545137568",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fd",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fd/fd5a278ce270bd7b28aa949ec7bd736521e50d80.texture",
+                "hash": "17836025451381452",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fd/fdbbaa2c83101f9b66fb503e6f38ba85b39e6a20.texture",
+                "hash": "1783602545139232",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fd/fdce52252458c90169b884999ed107ed4f612ffe.texture",
+                "hash": "1783602545140870",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fe",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.cache_textures/fe/fecf2f1252778349dcf0b414f25c1063d34e3a66.texture",
+                "hash": "1783602545141272",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/0d",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/0d/0d6abf6a2478e7c1e4c29e2cd7a2839bca42643e.mesh",
+                "hash": "1783602545141244",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/0d/0d6abf6a2478e7c1e4c29e2cd7a2839bca42643e.mesh.meta",
+                "hash": "1783602545142181",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/13",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/13/13c13655873193b046fb934f769de862de9ccc59.mesh",
+                "hash": "1783602545143490",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/13/13c13655873193b046fb934f769de862de9ccc59.mesh.meta",
+                "hash": "1783602545144181",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/17",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/17/17fbfb8c6b20817b45af889e0e35d76571da2180.mesh",
+                "hash": "1783602545146490",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/17/17fbfb8c6b20817b45af889e0e35d76571da2180.mesh.meta",
+                "hash": "1783602545147181",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/27",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/27/27917a872cd2f63a9cea9051c1c18d7c02be8aab.node",
+                "hash": "1783602545148698",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/27/27917a872cd2f63a9cea9051c1c18d7c02be8aab.node.meta",
+                "hash": "1783602545149180",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/29",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/29/2997e40822c8b7c7ec48927a7464ff91588cb3bc.texture",
+                "hash": "17836025451501903",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/29/2997e40822c8b7c7ec48927a7464ff91588cb3bc.texture.meta",
+                "hash": "1783602545151187",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/3a",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/3a/3ac02fc875c310878d1b943add8e9651fa79db7c.texture",
+                "hash": "178360254519813908440",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/3a/3ac02fc875c310878d1b943add8e9651fa79db7c.texture.meta",
+                "hash": "1783602545199193",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/42",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/42/4227c53bb3cc795eb05a9125737a1040525b469f.texture",
+                "hash": "17836025452123469091",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/42/4227c53bb3cc795eb05a9125737a1040525b469f.texture.meta",
+                "hash": "1783602545213193",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/49",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/49/498e07c151953e2cea14a39b52ce043ef0a3de85.node",
+                "hash": "17836025452141053",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/49/498e07c151953e2cea14a39b52ce043ef0a3de85.node.meta",
+                "hash": "1783602545215188",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/4d",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/4d/4d4169f591e5f2d0fa2b27ef08e03482256f69f9.node",
+                "hash": "1783602545216699",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/4d/4d4169f591e5f2d0fa2b27ef08e03482256f69f9.node.meta",
+                "hash": "1783602545217179",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/5b",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/5b/5b29a40c7a150ffb6361c51e7cdde9e5d6421200.texture",
+                "hash": "1783602545219758",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/5b/5b29a40c7a150ffb6361c51e7cdde9e5d6421200.texture.meta",
+                "hash": "1783602545220193",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/5c",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/5c/5c4cccedf7d047b63b9f6ff8e17f4d46bc703f86.texture",
+                "hash": "1783602545222128136",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/5c/5c4cccedf7d047b63b9f6ff8e17f4d46bc703f86.texture.meta",
+                "hash": "1783602545223188",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/62",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/62/6251a407c69e11ba08aff5d1cab8b4fccc888c2b.mesh",
+                "hash": "17836025452231796",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/62/6251a407c69e11ba08aff5d1cab8b4fccc888c2b.mesh.meta",
+                "hash": "1783602545224182",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/65",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/65/65ebfad4ee0f2823489cef26ce663c4d572bb148.node",
+                "hash": "1783602545225803",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/65/65ebfad4ee0f2823489cef26ce663c4d572bb148.node.meta",
+                "hash": "1783602545227182",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/68",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/68/68ec9d54345668a38a6e35a66a9dd0cdeba93bc8.texture",
+                "hash": "17836025452281407",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/68/68ec9d54345668a38a6e35a66a9dd0cdeba93bc8.texture.meta",
+                "hash": "1783602545229186",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/6e",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/6e/6e10090b18eccaeeaa8e15759a9fa850236a5f6f.mesh",
+                "hash": "1783602545229245",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/6e/6e10090b18eccaeeaa8e15759a9fa850236a5f6f.mesh.meta",
+                "hash": "1783602545231180",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/6e/6e91f2d2b719f409b4dcedd4ac1d7f2325015a26.texture",
+                "hash": "1783602545235690728",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/6e/6e91f2d2b719f409b4dcedd4ac1d7f2325015a26.texture.meta",
+                "hash": "1783602545236194",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/74",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/74/7431b7aae1bd03014d53806cf96380db2136c07e.mesh",
+                "hash": "178360254523830388",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/74/7431b7aae1bd03014d53806cf96380db2136c07e.mesh.meta",
+                "hash": "1783602545238186",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/75",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/75/755ab443f067ccc6cca13d6ddebd7fe88aace227.node",
+                "hash": "1783602545240800",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/75/755ab443f067ccc6cca13d6ddebd7fe88aace227.node.meta",
+                "hash": "1783602545241181",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/7a",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/7a/7abd3d1dd6399bd8498bed57e699aacada031ba1.prop",
+                "hash": "178360257602817230",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/7a/7abd3d1dd6399bd8498bed57e699aacada031ba1.prop.meta",
+                "hash": "1783602545243195",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/82",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/82/82fb4683e414ba063e30c9ad87291f2886d77867.texture",
+                "hash": "17836025452697132056",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/82/82fb4683e414ba063e30c9ad87291f2886d77867.texture.meta",
+                "hash": "1783602545273194",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/83",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/83/83f3ab14baec9b632d0749669802518dd7d04588.basemat",
+                "hash": "178360254527712828",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/83/83f3ab14baec9b632d0749669802518dd7d04588.basemat.meta",
+                "hash": "1783602545279191",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/84",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/84/84543662d1f2c25999e347e4a0e271f3c2108eb6.texture",
+                "hash": "1783602545283757",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/84/84543662d1f2c25999e347e4a0e271f3c2108eb6.texture.meta",
+                "hash": "1783602545286194",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/95",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/95/95d5a1fcc86e952b0aaea88ed4541695ba4076f0.basemat",
+                "hash": "178360254529024001",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/95/95d5a1fcc86e952b0aaea88ed4541695ba4076f0.basemat.meta",
+                "hash": "1783602545292187",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/96",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/96/96b89b5d9dcae518765c2597a1d6060a51af3de1.mesh",
+                "hash": "17836025452952899",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/96/96b89b5d9dcae518765c2597a1d6060a51af3de1.mesh.meta",
+                "hash": "1783602545299188",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/98",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/98/9802276da9e561e8d1bf5c2721ad2b5a2d4a02f1.mesh",
+                "hash": "1783602545304114710",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/98/9802276da9e561e8d1bf5c2721ad2b5a2d4a02f1.mesh.meta",
+                "hash": "1783602545307192",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/a5",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/a5/a5fe62229ac57b19ccf329a4986368b3cead9676.node",
+                "hash": "1783602545310706",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/a5/a5fe62229ac57b19ccf329a4986368b3cead9676.node.meta",
+                "hash": "1783602545312183",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ac",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ac/ac61500693d867ad17a02528df46c6672623109a.texture",
+                "hash": "17836025453151397",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ac/ac61500693d867ad17a02528df46c6672623109a.texture.meta",
+                "hash": "1783602545319192",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ad",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ad/adac1bcf5877d6e27634e8d90f163c64c263dc73.mesh",
+                "hash": "17836025453233444",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ad/adac1bcf5877d6e27634e8d90f163c64c263dc73.mesh.meta",
+                "hash": "1783602545326184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b1",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b1/b16fed1dff6c8bd81cc21d57e77a1aca4208cba1.mesh",
+                "hash": "1783602545333802887",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b1/b16fed1dff6c8bd81cc21d57e77a1aca4208cba1.mesh.meta",
+                "hash": "1783602545336188",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b5",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b5/b50d447466b5a543f70c09c68846566d9f15c4e8.basemat",
+                "hash": "178360254534017929",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b5/b50d447466b5a543f70c09c68846566d9f15c4e8.basemat.meta",
+                "hash": "1783602545343188",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b6",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b6/b6674b045b8932059769ee326a8eb293037aeb19.texture",
+                "hash": "178360254534742805",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/b6/b6674b045b8932059769ee326a8eb293037aeb19.texture.meta",
+                "hash": "1783602545350184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ba",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ba/bada353cdd958f6b159eddce4afe4ad5abf69e30.node",
+                "hash": "1783602545353697",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ba/bada353cdd958f6b159eddce4afe4ad5abf69e30.node.meta",
+                "hash": "1783602545356179",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/c3",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/c3/c3d8866b946f68ce65f759d5bd966130457b02cf.node",
+                "hash": "1783602545358799",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/c3/c3d8866b946f68ce65f759d5bd966130457b02cf.node.meta",
+                "hash": "1783602545360181",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/c6",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/c6/c60e1d72cb03de29c8269174f8ac8e43826bdec6.node",
+                "hash": "17836025453631122",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/c6/c60e1d72cb03de29c8269174f8ac8e43826bdec6.node.meta",
+                "hash": "1783602545364192",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/d5",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/d5/d5d646d363239e16e660be7d15736db807fad5b7.node",
+                "hash": "1783602545367701",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/d5/d5d646d363239e16e660be7d15736db807fad5b7.node.meta",
+                "hash": "1783602545368181",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/da",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/da/da25ebcc733b34bbd3b622def6412ca511a4f5c0.basemat",
+                "hash": "178360254537145006",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/da/da25ebcc733b34bbd3b622def6412ca511a4f5c0.basemat.meta",
+                "hash": "1783602545372188",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/e0",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/e0/e0a18b04956a9a9364ca5ed63f65083d83cdac78.mesh",
+                "hash": "1783602545373671",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/e0/e0a18b04956a9a9364ca5ed63f65083d83cdac78.mesh.meta",
+                "hash": "1783602545375184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/e5",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/e5/e538f959ed5e12e49e00c0f3671491b6e54edd9d.texture",
+                "hash": "1783602545376747",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/e5/e538f959ed5e12e49e00c0f3671491b6e54edd9d.texture.meta",
+                "hash": "1783602545377191",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ec",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ec/ec1ffd42b4691bb9fbe211c4d621f2534cd05396.basemat",
+                "hash": "178360254538010828",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/ec/ec1ffd42b4691bb9fbe211c4d621f2534cd05396.basemat.meta",
+                "hash": "1783602545381193",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/f2",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/f2/f225c61ccb2a78ee75153c32ff600758eeffa623.texture",
+                "hash": "1783602545384453915",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/f2/f225c61ccb2a78ee75153c32ff600758eeffa623.texture.meta",
+                "hash": "1783602545385184",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fd",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fd/fdbbaa2c83101f9b66fb503e6f38ba85b39e6a20.texture",
+                "hash": "1783602545386761",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fd/fdbbaa2c83101f9b66fb503e6f38ba85b39e6a20.texture.meta",
+                "hash": "1783602545388188",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fe",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fe/feb2bc37c3df6c2ac3fa2d814fdda8ec1b0a8f5b.node",
+                "hash": "1783602545389698",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fe/feb2bc37c3df6c2ac3fa2d814fdda8ec1b0a8f5b.node.meta",
+                "hash": "1783602545390181",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fe/fecf2f1252778349dcf0b414f25c1063d34e3a66.texture",
+                "hash": "17836025454085928555",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/.runtimes/fe/fecf2f1252778349dcf0b414f25c1063d34e3a66.texture.meta",
+                "hash": "1783602545409195",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/DvigAtel.world",
+                "hash": "1783602545955192518",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/DvigAtel.world.meta",
+                "hash": "17836025459551561",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/14c97f31ff20eedca3c2bc8b8e04e86e1a0894f5.texture",
+                "hash": "1783602545413544221",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/14c97f31ff20eedca3c2bc8b8e04e86e1a0894f5.texture.meta",
+                "hash": "17836025454141170",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/89f1a2df6c6012b2d824d2696e6478b4a934cc83.texture",
+                "hash": "1783602545418507578",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/89f1a2df6c6012b2d824d2696e6478b4a934cc83.texture.meta",
+                "hash": "17836025454191170",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/aabd101dcf4952d811423857ffbd79ca9c4e9ea1.texture",
+                "hash": "1783602545424786154",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/aabd101dcf4952d811423857ffbd79ca9c4e9ea1.texture.meta",
+                "hash": "17836025454251170",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/d664880676523fad3be01d286b565e67517dc89a.texture",
+                "hash": "1783602545429619186",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/d664880676523fad3be01d286b565e67517dc89a.texture.meta",
+                "hash": "17836025454301169",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/fd5a278ce270bd7b28aa949ec7bd736521e50d80.texture",
+                "hash": "1783602545434534794",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/bake_lighting/lightmaps/fd5a278ce270bd7b28aa949ec7bd736521e50d80.texture.meta",
+                "hash": "17836025454361170",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/core.ung",
+                "hash": "178360253741968532565",
+                "tags": [
+                    "unigine_data"
+                ]
+            },
+            {
+                "file": "data/csharp_components.prop",
+                "hash": "1783602544871126",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_components.prop.meta",
+                "hash": "1783602544872299",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/FP_controller",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/FP_controller/components",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/FP_controller/components/FirstPersonController.cs",
+                "hash": "178360254565858232",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/FP_controller/components/FirstPersonController.cs.meta",
+                "hash": "1783602545659412",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/FP_controller/first_person_controller.node",
+                "hash": "1783602545437856",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/FP_controller/first_person_controller.node.meta",
+                "hash": "1783602545438310",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep.texture",
+                "hash": "17836025454631659634",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep.texture.meta",
+                "hash": "17836025454661133",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_1.texture",
+                "hash": "17836025454711241506",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_1.texture.meta",
+                "hash": "17836025454721135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_10.texture",
+                "hash": "17836025454781245768",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_10.texture.meta",
+                "hash": "17836025454791136",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_11.texture",
+                "hash": "17836025454861281216",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_11.texture.meta",
+                "hash": "17836025454871136",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_12.texture",
+                "hash": "17836025454931238900",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_12.texture.meta",
+                "hash": "17836025454951136",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_13.texture",
+                "hash": "17836025455001303195",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_13.texture.meta",
+                "hash": "17836025455011135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_14.texture",
+                "hash": "17836025455081563444",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_14.texture.meta",
+                "hash": "17836025455101136",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_15.texture",
+                "hash": "17836025455161509945",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_15.texture.meta",
+                "hash": "17836025455171136",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_2.texture",
+                "hash": "17836025455231507174",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_2.texture.meta",
+                "hash": "17836025455261135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_3.texture",
+                "hash": "17836025455311542938",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_3.texture.meta",
+                "hash": "17836025455321135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_4.texture",
+                "hash": "17836025455391449023",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_4.texture.meta",
+                "hash": "17836025455411135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_5.texture",
+                "hash": "17836025455461254686",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_5.texture.meta",
+                "hash": "17836025455481135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_6.texture",
+                "hash": "17836025455551606798",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_6.texture.meta",
+                "hash": "17836025455571135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_7.texture",
+                "hash": "17836025455621253323",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_7.texture.meta",
+                "hash": "17836025455631135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_8.texture",
+                "hash": "17836025455701215317",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_8.texture.meta",
+                "hash": "17836025455711135",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_9.texture",
+                "hash": "17836025455771246523",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/env/ep_9.texture.meta",
+                "hash": "17836025455781134",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/voxel",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/voxel/vp.texture",
+                "hash": "178360254565420223074",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/baked_lighting/voxel/vp.texture.meta",
+                "hash": "17836025456571131",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_base.mgraph",
+                "hash": "178360254590624349",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_base.mgraph.meta",
+                "hash": "1783602545907395",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_gray_mat.mat",
+                "hash": "1783602545909310",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_gray_mat.mat.meta",
+                "hash": "1783602545910300",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_green_mat.mat",
+                "hash": "1783602545911310",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_green_mat.mat.meta",
+                "hash": "1783602545912301",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_orange_mat.mat",
+                "hash": "1783602545913310",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_orange_mat.mat.meta",
+                "hash": "1783602545914302",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_red_mat.mat",
+                "hash": "1783602545915310",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/floor_red_mat.mat.meta",
+                "hash": "1783602545917299",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/glass_mat.mgraph",
+                "hash": "178360254591814351",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/glass_mat.mgraph.meta",
+                "hash": "1783602545919393",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/wall_0_mat.mgraph",
+                "hash": "178360254592010302",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/materials/wall_0_mat.mgraph.meta",
+                "hash": "1783602545921395",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/plane.fbx",
+                "hash": "178360254568117488",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/plane.fbx.meta",
+                "hash": "17836025456834003",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/ramp_0.fbx",
+                "hash": "178360254568419168",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/ramp_0.fbx.meta",
+                "hash": "17836025456854220",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/ramp_1.fbx",
+                "hash": "178360254568719168",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/ramp_1.fbx.meta",
+                "hash": "17836025456894220",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/stairs_0.fbx",
+                "hash": "178360254569021344",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/stairs_0.fbx.meta",
+                "hash": "17836025456914225",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/template_buildings.fbx",
+                "hash": "178360254569459116",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/template_buildings.fbx.meta",
+                "hash": "17836025456954930",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/wall_0.fbx",
+                "hash": "178360254569617488",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/fbx/wall_0.fbx.meta",
+                "hash": "17836025456974004",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/glass.node",
+                "hash": "1783602545661607",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/glass.node.meta",
+                "hash": "1783602545662292",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_0_n.png",
+                "hash": "17836025456993076",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_0_n.png.meta",
+                "hash": "17836025457001242",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_0_sh.png",
+                "hash": "17836025457022354",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_0_sh.png.meta",
+                "hash": "17836025457031242",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_gray_alb.png",
+                "hash": "17836025457052340",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_gray_alb.png.meta",
+                "hash": "17836025457061243",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_green_alb.png",
+                "hash": "17836025457082350",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_green_alb.png.meta",
+                "hash": "17836025457091251",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_orange_alb.png",
+                "hash": "17836025457102349",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_orange_alb.png.meta",
+                "hash": "17836025457121253",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_red_alb.png",
+                "hash": "17836025457132348",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/floor_red_alb.png.meta",
+                "hash": "17836025457151247",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/metal_texture_sh.png",
+                "hash": "17836025457211057516",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/metal_texture_sh.png.meta",
+                "hash": "17836025457221254",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/wall_alb.png",
+                "hash": "17836025457232340",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/constructor/textures/wall_alb.png.meta",
+                "hash": "17836025457241231",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/fbx",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/fbx/material_ball.fbx",
+                "hash": "17836025457311346992",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/fbx/material_ball.fbx.meta",
+                "hash": "17836025457334402",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/material_ball.mgraph",
+                "hash": "178360254566523926",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/material_ball.mgraph.meta",
+                "hash": "1783602545666401",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/material_ball.node",
+                "hash": "17836025456673030",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/material_ball.node.meta",
+                "hash": "1783602545668300",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_a.png",
+                "hash": "17836025457462852500",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_a.png.meta",
+                "hash": "17836025457501256",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_alb.png",
+                "hash": "178360254579610793019",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_alb.png.meta",
+                "hash": "17836025458011255",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_n.png",
+                "hash": "17836025458378869222",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_n.png.meta",
+                "hash": "17836025458431254",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_sh.png",
+                "hash": "17836025458739087252",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/material_ball/textures/material_ball_sh.png.meta",
+                "hash": "17836025458741254",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/cone.node",
+                "hash": "17836025456714534",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/cone.node.meta",
+                "hash": "1783602545672291",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/cube.node",
+                "hash": "17836025456732021",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/cube.node.meta",
+                "hash": "1783602545675291",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/cylinder.node",
+                "hash": "1783602545676862",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/cylinder.node.meta",
+                "hash": "1783602545677295",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/cone.fbx",
+                "hash": "178360254587522624",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/cone.fbx.meta",
+                "hash": "17836025458764001",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/cube.fbx",
+                "hash": "178360254587718576",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/cube.fbx.meta",
+                "hash": "17836025458794001",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/cylinder.fbx",
+                "hash": "178360254588019968",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/cylinder.fbx.meta",
+                "hash": "17836025458814013",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/sphere.fbx",
+                "hash": "178360254588554176",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/fbx/sphere.fbx.meta",
+                "hash": "17836025458864006",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/cone_mat.mat",
+                "hash": "1783602545887475",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/cone_mat.mat.meta",
+                "hash": "1783602545889294",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/cube_mat.mat",
+                "hash": "1783602545890504",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/cube_mat.mat.meta",
+                "hash": "1783602545890294",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/cylinder_mat.mat",
+                "hash": "1783602545891504",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/cylinder_mat.mat.meta",
+                "hash": "1783602545892298",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/primitives_base.mgraph",
+                "hash": "17836025458949664",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/primitives_base.mgraph.meta",
+                "hash": "1783602545895405",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/sphere_mat.mat",
+                "hash": "1783602545896393",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/materials/sphere_mat.mat.meta",
+                "hash": "1783602545897295",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/sphere.node",
+                "hash": "1783602545678679",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/sphere.node.meta",
+                "hash": "1783602545679293",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/textures",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/textures/cone_n.png",
+                "hash": "1783602545899214066",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/textures/cone_n.png.meta",
+                "hash": "17836025459001244",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/textures/cube_n.png",
+                "hash": "178360254590121083",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/textures/cube_n.png.meta",
+                "hash": "17836025459031244",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/textures/cylinder_n.png",
+                "hash": "178360254590579548",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/props/primitives/textures/cylinder_n.png.meta",
+                "hash": "17836025459061252",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings",
+                "hash": "",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_extreme.render",
+                "hash": "178360254544150855",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_extreme.render.meta",
+                "hash": "1783602545442307",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_high.render",
+                "hash": "178360254544550860",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_high.render.meta",
+                "hash": "1783602545446304",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_low.render",
+                "hash": "178360254544750816",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_low.render.meta",
+                "hash": "1783602545448302",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_medium.render",
+                "hash": "178360254545050884",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_medium.render.meta",
+                "hash": "1783602545451305",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_ultra.render",
+                "hash": "178360254545250851",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_ultra.render.meta",
+                "hash": "1783602545453305",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_virtual_reality.render",
+                "hash": "178360254545550828",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/csharp_template/template_render_settings/template_virtual_reality.render.meta",
+                "hash": "1783602545456315",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/editor2.ung",
+                "hash": "17836025444548038724",
+                "tags": [
+                    "unigine_data"
+                ]
+            },
+            {
+                "file": "data/root_mount.umount",
+                "hash": "1783602544719103",
+                "tags": [
+                    "unigine_data"
+                ]
+            },
+            {
+                "file": "data/scripts.ung",
+                "hash": "178360253756111780",
+                "tags": [
+                    "unigine_data"
+                ]
+            },
+            {
+                "file": "data/shader_d3d11.cache",
+                "hash": "17836025448812580364",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/shader_d3d12_dxc.cache",
+                "hash": "17836025449026097810",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "data/shader_vk.cache",
+                "hash": "17836025449236049408",
+                "tags": [
+                    "project_data"
+                ]
+            },
+            {
+                "file": "launch_debug.bat",
+                "hash": "1783602546434485",
+                "tags": [
+                    "launcher_console"
+                ]
+            },
+            {
+                "file": "launch_editor.bat",
+                "hash": "1783602546453527",
+                "tags": [
+                    "launcher_console"
+                ]
+            },
+            {
+                "file": "launch_release.bat",
+                "hash": "1783602546421484",
+                "tags": [
+                    "launcher_console"
+                ]
+            },
+            {
+                "file": "source",
+                "hash": "",
+                "tags": [
+                    "unigine"
+                ]
+            },
+            {
+                "file": "source/AppEditorLogic.cs",
+                "hash": "17836025459571412",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "source/AppSystemLogic.cs",
+                "hash": "1783602545959911",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "source/AppWorldLogic.cs",
+                "hash": "17836025459682099",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "source/main.cs",
+                "hash": "1783602545969470",
+                "tags": [
+                    "project_sources"
+                ]
+            },
+            {
+                "file": "utils",
+                "hash": "",
+                "tags": [
+                    "unigine_utils"
+                ]
+            },
+            {
+                "file": "utils/natvis",
+                "hash": "",
+                "tags": [
+                    "unigine_utils"
+                ]
+            },
+            {
+                "file": "utils/natvis/image.natvis",
+                "hash": "17836025100901891",
+                "tags": [
+                    "unigine_utils"
+                ]
+            },
+            {
+                "file": "utils/natvis/install.txt",
+                "hash": "1783602510092214",
+                "tags": [
+                    "unigine_utils"
+                ]
+            },
+            {
+                "file": "utils/natvis/qt5_2.natvis",
+                "hash": "178360251009433547",
+                "tags": [
+                    "unigine_utils"
+                ]
+            },
+            {
+                "file": "utils/natvis/unigine_stl.natvis",
+                "hash": "178360251009510715",
+                "tags": [
+                    "unigine_utils"
+                ]
+            }
+        ],
+        "launcher_console": true,
+        "launcher_gui": false,
+        "name": "DvigAtel",
+        "plugin_name": "",
+        "plugin_vendor": "",
+        "plugins": [
+            "UnigineFbxImporter",
+            "UnigineCadImporter",
+            "UnigineGLTFImporter",
+            "UnigineFbxExporter",
+            "UnigineGeodetics",
+            "UnigineUsdExporter"
+        ],
+        "precision": 0,
+        "project_template": [
+            "empty-dnc"
+        ],
+        "rt_generator": false,
+        "samples_pack": "",
+        "starting_world": "default",
+        "sw_distributed": false,
+        "template_id": "",
+        "template_name": "",
+        "template_version": ""
+    },
+    "run_settings": {
+        "app_name": "",
+        "application": "default",
+        "arguments": "",
+        "debug": false,
+        "microprofile_enabled": false,
+        "rpath": [
+        ]
+    },
+    "sdk": {
+        "edition": "community",
+        "internal_version": 55,
+        "key": "tier0_bin_windows-2.18.1",
+        "name": "UNIGINE 2 Community",
+        "path": "C:/Users/Admin/AppData/Local/unigine/browser/sdks/community_windows_2.18.1_bin",
+        "type": "bin",
+        "version": "2.18.1"
+    },
+    "version": "2"
+}

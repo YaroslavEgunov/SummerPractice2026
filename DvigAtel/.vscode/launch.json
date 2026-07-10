@@ -1,0 +1,36 @@
+{
+   // Use IntelliSense to find out which attributes exist for C# debugging
+   // Use hover for the description of the existing attributes
+   // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+   "version": "0.2.0",
+   "configurations": [
+        {
+            "name": "Run Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build debug",
+            "program": "${workspaceFolder}/bin/DvigAtel_x64d.dll",
+            "args": [ "-data_path", "../", "-engine_config", "../data/DvigAtel/unigine.cfg", "-console_command", "world_load \"DvigAtel\"" ],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+        },
+        {
+            "name": "Run Release",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build release",
+            "program": "${workspaceFolder}/bin/DvigAtel_x64.dll",
+            "args": [ "-data_path", "../", "-engine_config", "../data/DvigAtel/unigine.cfg", "-console_command", "world_load \"DvigAtel\"" ],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+        },    
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}

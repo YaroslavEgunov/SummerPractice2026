@@ -1,0 +1,704 @@
+//ver=2
+BaseMaterial<
+				parent=Unigine::mesh_transparent
+				guid=95d5a1fcc86e952b0aaea88ed4541695ba4076f0
+				manual=false
+				
+			>
+{
+	// optimization
+	State static_shadow = false
+	
+Texture2DArray "8f0b1da8df486a941a5f2a91917ef4deff3baa5b"="guid://df7a5f2766dedfe11a5f2a91917ef4deff3baa5b" <shader_name="8f0b1da8df486a941a5f2a91917ef4deff3baa5b" editable=false wrap=[repeat_x repeat_y repeat_z ]>
+	Texture2D <source=linear_depth>
+	Texture2D <source=screen_color_old_reprojection>
+Group "Parameters"
+{
+Slider "roughness"=0.000000 < min=0 max=1 shader_name="var_4b93d8479cb2d112283ef34d1b437d234adde333">
+}
+	State emission = true
+	State use_bound_scale = false
+	Option blend_src5
+	Option blend_dest6
+	State gbuffer = true
+	Option depth_mask = false
+
+	
+	Shader vertex_struct =
+	#{
+		INIT_BASE_DATA
+		INIT_USER_DATA(float3, global_var_1ef54606f6729c15f0c1cc8c36839aab613b28a0)
+
+		INIT_USER_DATA(float3, DATA_VERTEX_POSITION)
+		MODIFIER_NOINTERPOLATION INIT_USER_DATA(float4x4, DATA_TRANSFORM)
+		MODIFIER_NOINTERPOLATION INIT_USER_DATA(float4x4, DATA_ITRANSFORM)
+		MODIFIER_NOINTERPOLATION INIT_USER_DATA(float3x3, DATA_OBJECT_ROTATION)
+		
+		MODIFIER_NOINTERPOLATION INIT_USER_DATA(uint, DATA_INSTANCE_ID)
+		MODIFIER_NOINTERPOLATION INIT_USER_DATA(uint, DATA_VERTEX_ID)
+	#}
+	
+	Shader common =
+	#{
+		#include <core/materials/shaders/render/graph/common.h>
+		#ifdef FRAGMENT
+			#include <core/materials/shaders/api/common.h>
+			#include <core/materials/shaders/render/graph/base.h>
+			#include <core/materials/shaders/render/graph/common.h>
+			
+			void _add_call_graph_wrapper(float in0,float in1,out float out0)
+			{
+				out0 = _add(in0,in1);
+			
+			}
+			void _add_call_graph_wrapper(float3 in0,float3 in1,out float3 out0)
+			{
+				out0 = _add(in0,in1);
+			
+			}
+			void _add_call_graph_wrapper(int in0,int in1,out int out0)
+			{
+				out0 = _add(in0,in1);
+			
+			}
+			void _dot_product_call_graph_wrapper(float3 in0,float3 in1,out float out0)
+			{
+				out0 = _dot_product(in0,in1);
+			
+			}
+			void _equal_call_graph_wrapper(int in0,int in1,out bool out0)
+			{
+				out0 = _equal(in0,in1);
+			
+			}
+			void _greater_call_graph_wrapper(float in0,float in1,out bool out0)
+			{
+				out0 = _greater(in0,in1);
+			
+			}
+			void _less_call_graph_wrapper(float in0,float in1,out bool out0)
+			{
+				out0 = _less(in0,in1);
+			
+			}
+			void _logical_and_call_graph_wrapper(bool in0,bool in1,out bool out0)
+			{
+				out0 = _logical_and(in0,in1);
+			
+			}
+			void _multiply_call_graph_wrapper(float in0,float in1,out float out0)
+			{
+				out0 = _multiply(in0,in1);
+			
+			}
+			void _multiply_call_graph_wrapper(float3 in0,float3 in1,out float3 out0)
+			{
+				out0 = _multiply(in0,in1);
+			
+			}
+			void _multiply_call_graph_wrapper(int in0,int in1,out int out0)
+			{
+				out0 = _multiply(in0,in1);
+			
+			}
+			void _subtract_call_graph_wrapper(float in0,float in1,out float out0)
+			{
+				out0 = _subtract(in0,in1);
+			
+			}
+			void abs_call_graph_wrapper(float2 in0,out float2 out0)
+			{
+				out0 = abs(in0);
+			
+			}
+			void clamp_call_graph_wrapper(float in0,float in1,float in2,out float out0)
+			{
+				out0 = clamp(in0,in1,in2);
+			
+			}
+			void distance_call_graph_wrapper(float3 in0,float3 in1,out float out0)
+			{
+				out0 = distance(in0,in1);
+			
+			}
+			void fmod_call_graph_wrapper(float in0,float in1,out float out0)
+			{
+				out0 = fmod(in0,in1);
+			
+			}
+			void fmod_call_graph_wrapper(float2 in0,float2 in1,out float2 out0)
+			{
+				out0 = fmod(in0,in1);
+			
+			}
+			void frac_call_graph_wrapper(float3 in0,out float3 out0)
+			{
+				out0 = frac(in0);
+			
+			}
+			void length_call_graph_wrapper(float3 in0,out float out0)
+			{
+				out0 = length(in0);
+			
+			}
+			void lerp_call_graph_wrapper(float in0,float in1,float in2,out float out0)
+			{
+				out0 = lerp(in0,in1,in2);
+			
+			}
+			void min_call_graph_wrapper(float in0,float in1,out float out0)
+			{
+				out0 = min(in0,in1);
+			
+			}
+			void positionToScreenUV_call_graph_wrapper(float3 in0,out float2 out0)
+			{
+				out0 = positionToScreenUV(in0);
+			
+			}
+			void pow_call_graph_wrapper(float in0,float in1,out float out0)
+			{
+				out0 = pow(in0,in1);
+			
+			}
+			void reflect_call_graph_wrapper(float3 in0,float3 in1,out float3 out0)
+			{
+				out0 = reflect(in0,in1);
+			
+			}
+			void rerange_call_graph_wrapper(float2 in0,float in1,float in2,float in3,float in4,out float2 out0)
+			{
+				out0 = rerange(in0,in1,in2,in3,in4);
+			
+			}
+			void saturate_call_graph_wrapper(float in0,out float out0)
+			{
+				out0 = saturate(in0);
+			
+			}
+			void saturate_call_graph_wrapper(float2 in0,out float2 out0)
+			{
+				out0 = saturate(in0);
+			
+			}
+			void sign_call_graph_wrapper(float in0,out float out0)
+			{
+				out0 = sign(in0);
+			
+			}
+			void smoothstep_call_graph_wrapper(float in0,float in1,float in2,out float out0)
+			{
+				out0 = smoothstep(in0,in1,in2);
+			
+			}
+			
+		#elif VERTEX
+			
+			
+		#elif EVALUATE
+			
+			
+		#endif
+		
+		#ifdef PASS_SHADOW
+			#define IS_SHADOW true
+		#else
+			#define IS_SHADOW false
+		#endif
+		
+		#ifdef PASS_AUXILIARY
+			#define IS_AUXILIARY true
+		#else
+			#define IS_AUXILIARY false
+		#endif
+		
+		#ifdef PASS_DEFERRED
+			#define IS_GBUFFER true
+		#else
+			#define IS_GBUFFER false
+		#endif
+		
+		#ifdef BAKING_GI
+			#define IS_BAKING_GI true
+		#else
+			#define IS_BAKING_GI false
+		#endif
+		
+		#ifdef STATE_LIGHTMAP
+			#define IS_LIGHTMAP true
+		#else
+			#define IS_LIGHTMAP false
+		#endif
+	#}
+	
+	Shader vertex =
+	#{
+		DATA_INSTANCE_ID = IN_INSTANCE;
+		DATA_VERTEX_ID = IN_VERTEX_ID;
+		DATA_TRANSFORM = VERTEX_IN_TRANSFORM;
+		DATA_ITRANSFORM = inverseTransform(DATA_TRANSFORM);
+		DATA_OBJECT_ROTATION = orthonormalize(toFloat3x3(DATA_TRANSFORM));
+		DATA_VERTEX_POSITION = VERTEX_IN_POSITION;
+		
+		const float3 object_position = colW(DATA_TRANSFORM).xyz;
+		
+		const float4x4 object_to_view = DATA_TRANSFORM;
+		const float4x4 view_to_object = DATA_ITRANSFORM;
+		
+		const float4x4 absolute_world_to_view = VERTEX_IN_MODELVIEW;
+		const float4x4 view_to_absolute_world = VERTEX_IN_IMODELVIEW;
+		
+		const float3x3 camera_world_to_view = toFloat3x3(VERTEX_IN_MODELVIEW);
+		const float3x3 view_to_camera_world = toFloat3x3(VERTEX_IN_IMODELVIEW);
+		
+		const float4x4 object_to_absolute_world = mul4(view_to_absolute_world, object_to_view);
+		const float4x4 absolute_world_to_object = mul4(view_to_object, absolute_world_to_view);
+		
+		const float4x4 object_to_camera_world = mul4(camera_world_to_view, object_to_view);
+		const float4x4 camera_world_to_object = mul4(view_to_object, view_to_camera_world);
+		
+		const float3x3 rotate_object_to_view = DATA_OBJECT_ROTATION;
+		const float3x3 rotate_view_to_tangent = matrix3Row(DATA_TANGENT, DATA_BINORMAL, DATA_NORMAL);
+		const float3x3 rotate_view_to_world = view_to_camera_world;
+		
+		const float3x3 rotate_object_to_world = mul3(rotate_view_to_world, rotate_object_to_view);
+		const float3x3 rotate_world_to_tangent = mul3(rotate_view_to_tangent, camera_world_to_view);
+		const float3x3 rotate_object_to_tangent = mul3(rotate_view_to_tangent, rotate_object_to_view);
+		
+		const uint2 screen_resolution = toUInt2(s_viewport.xy);
+		const float2 screen_iresolution = s_viewport.zw;
+		const float2 screen_uv = positionToScreenUV(DATA_POSITION);
+		const uint2 screen_coord = toUInt2(screen_uv * s_viewport.xy);
+		
+		const float3 view_direction = positionToViewDirection(DATA_POSITION);
+		
+		const float auto_time = VERTEX_IN_TIME;
+		const float auto_game_time = VERTEX_IN_GAME_TIME;
+		
+		const float2 cord_sample_Texture2D = DATA_UV.xy;
+		const float2 cord_sample_Texture2DInt = DATA_UV.xy;
+		const float2 cord_sample_Texture2DUint = DATA_UV.xy;
+		const float2 cord_sample_Texture2DArray = DATA_UV.xy;
+		const float  cord_sample_TextureRamp = DATA_UV.x;
+		const float3 cord_sample_Texture3D = DATA_VERTEX_POSITION;
+		const float3 cord_sample_TextureCube = mul3(rotate_view_to_world, reflect(-view_direction, DATA_NORMAL));
+		
+		#define NORMAL_TS_UV1(NORMAL_TS)
+		#define NORMAL_TS_AUTO(NORMAL_TS, UV)
+		
+		float3 global_var_aa073e78ad728fe9cc8e46c0916ba6829899c10e = float3_zero;
+		global_var_aa073e78ad728fe9cc8e46c0916ba6829899c10e = mul3(rotate_view_to_tangent, view_direction);
+		float3 global_var_2ef0fdc4b1d5bf22cb68f2defda884228c529246 = float3_zero;
+		global_var_2ef0fdc4b1d5bf22cb68f2defda884228c529246 = mul3(rotate_view_to_tangent, DATA_NORMAL);
+		global_var_1ef54606f6729c15f0c1cc8c36839aab613b28a0 = mul4(object_to_view, DATA_VERTEX_POSITION).xyz;
+		
+		
+		#undef NORMAL_TS_UV1
+		#undef NORMAL_TS_AUTO
+	#}
+	Shader evaluate =
+	#{
+		const float3 object_position = colW(DATA_TRANSFORM).xyz;
+		
+		const float4x4 object_to_view = DATA_TRANSFORM;
+		const float4x4 view_to_object = DATA_ITRANSFORM;
+		
+		const float4x4 absolute_world_to_view = s_modelview;
+		const float4x4 view_to_absolute_world = s_imodelview;
+		
+		const float3x3 camera_world_to_view = toFloat3x3(s_modelview);
+		const float3x3 view_to_camera_world = toFloat3x3(s_imodelview);
+		
+		const float4x4 object_to_absolute_world = mul4(view_to_absolute_world, object_to_view);
+		const float4x4 absolute_world_to_object = mul4(view_to_object, absolute_world_to_view);
+		
+		const float4x4 object_to_camera_world = mul4(view_to_camera_world, object_to_view);
+		const float4x4 camera_world_to_object = mul4(view_to_object, camera_world_to_view);
+		
+		const float3x3 rotate_object_to_view = DATA_OBJECT_ROTATION;
+		const float3x3 rotate_view_to_tangent = matrix3Row(DATA_TANGENT, DATA_BINORMAL, DATA_NORMAL);
+		const float3x3 rotate_view_to_world = view_to_camera_world;
+		
+		const float3x3 rotate_object_to_world = mul3(rotate_view_to_world, rotate_object_to_view);
+		const float3x3 rotate_world_to_tangent = mul3(rotate_view_to_tangent, camera_world_to_view);
+		const float3x3 rotate_object_to_tangent = mul3(rotate_view_to_tangent, rotate_object_to_view);
+		
+		const uint2 screen_resolution = toUInt2(s_viewport.xy);
+		const float2 screen_iresolution = s_viewport.zw;
+		const float2 screen_uv = positionToScreenUV(DATA_POSITION);
+		const uint2 screen_coord = toUInt2(screen_uv * s_viewport.xy);
+		
+		const float3 view_direction = positionToViewDirection(DATA_POSITION);
+		
+		const float auto_time = s_time;
+		const float auto_game_time = s_game_time;
+		
+		const float2 cord_sample_Texture2D = DATA_UV.xy;
+		const float2 cord_sample_Texture2DInt = DATA_UV.xy;
+		const float2 cord_sample_Texture2DUint = DATA_UV.xy;
+		const float2 cord_sample_Texture2DArray = DATA_UV.xy;
+		const float  cord_sample_TextureRamp = DATA_UV.x;
+		const float3 cord_sample_Texture3D = DATA_VERTEX_POSITION;
+		const float3 cord_sample_TextureCube = mul3(rotate_view_to_world, reflect(-view_direction, DATA_NORMAL));
+		
+		#define NORMAL_TS_UV1(NORMAL_TS)
+		#define NORMAL_TS_AUTO(NORMAL_TS, UV)
+		
+		
+		
+		#undef NORMAL_TS_UV1
+		#undef NORMAL_TS_AUTO
+	#}
+	
+	Shader fragment =
+	#{
+		const float3 object_position = colW(DATA_TRANSFORM).xyz;
+		
+		const float4x4 object_to_view = DATA_TRANSFORM;
+		const float4x4 view_to_object = DATA_ITRANSFORM;
+		
+		const float4x4 absolute_world_to_view = s_modelview;
+		const float4x4 view_to_absolute_world = s_imodelview;
+		
+		const float3x3 camera_world_to_view = toFloat3x3(s_modelview);
+		const float3x3 view_to_camera_world = toFloat3x3(s_imodelview);
+		
+		const float4x4 object_to_absolute_world = mul4(view_to_absolute_world, object_to_view);
+		const float4x4 absolute_world_to_object = mul4(view_to_object, absolute_world_to_view);
+		
+		const float4x4 object_to_camera_world = mul4(view_to_camera_world, object_to_view);
+		const float4x4 camera_world_to_object = mul4(view_to_object, camera_world_to_view);
+		
+		
+		normalizationTBN(DATA_TANGENT, DATA_BINORMAL, DATA_NORMAL, DATA_SIGN_BINORMAL);
+		
+		const float3x3 rotate_object_to_view = DATA_OBJECT_ROTATION;
+		const float3x3 rotate_view_to_tangent = matrix3Row(DATA_TANGENT, DATA_BINORMAL, DATA_NORMAL);
+		const float3x3 rotate_view_to_world = view_to_camera_world;
+		
+		const float3x3 rotate_object_to_world = mul3(rotate_view_to_world, rotate_object_to_view);
+		const float3x3 rotate_world_to_tangent = mul3(rotate_view_to_tangent, camera_world_to_view);
+		const float3x3 rotate_object_to_tangent = mul3(rotate_view_to_tangent, rotate_object_to_view);
+		
+		
+		const float3 N = DATA_NORMAL;
+		float3 T_DY = cross(ddy(DATA_POSITION), DATA_NORMAL);
+		float3 T_DX = cross(DATA_NORMAL, ddx(DATA_POSITION));
+		
+		float3x3 rotate_tangent_uv1_to_uv0;
+		{
+			float3 T = T_DY * ddx(DATA_UV.z) + T_DX * ddy(DATA_UV.z);
+			T = normalize(N * dot(T, N) - T);
+			float3 B = cross(T, N);
+			rotate_tangent_uv1_to_uv0 = mul3(rotate_view_to_tangent, matrix3Col(T,B,N));
+		}
+		
+		#define NORMAL_TS_UV1(NORMAL_TS) NORMAL_TS = mul3(rotate_tangent_uv1_to_uv0, NORMAL_TS);
+		#define NORMAL_TS_AUTO(NORMAL_TS, UV)\
+		{\
+			float3 T = T_DY * ddx(UV.x) + T_DX * ddy(UV.x);\
+			T = normalize(N * dot(T, N) - T);\
+			float3 B = cross(T, N);\
+			NORMAL_TS = mul3(matrix3Col(T,B,N), NORMAL_TS);\
+			NORMAL_TS = mul3(DATA_TANGENT, DATA_BINORMAL, DATA_NORMAL, NORMAL_TS);\
+		}
+		
+		const uint2 screen_resolution = toUInt2(s_viewport.xy);
+		const float2 screen_iresolution = s_viewport.zw;
+		const uint2 screen_coord = toUInt2(IN_POSITION.xy);
+		const float2 screen_uv = IN_POSITION.xy * s_viewport.zw;
+		
+		const float3 view_direction = positionToViewDirection(DATA_POSITION);
+		
+		const float auto_time = s_time;
+		const float auto_game_time = s_game_time;
+		
+		const float2 cord_sample_Texture2D = DATA_UV.xy;
+		const float2 cord_sample_Texture2DInt = DATA_UV.xy;
+		const float2 cord_sample_Texture2DArray = DATA_UV.xy;
+		const float  cord_sample_TextureRamp = DATA_UV.x;
+		const float3 cord_sample_Texture3D = DATA_VERTEX_POSITION;
+		const float3 cord_sample_TextureCube = mul3(rotate_view_to_world, reflect(-view_direction, DATA_NORMAL));
+		
+		#ifdef OPTION_TRANSPARENT
+			float shadow_clip_threshold = 0.5f;
+		#endif
+		#ifdef OPTION_TRANSPARENT || ALPHA_TEST
+			float auxiliary_clip_threshold = 0.5f;
+		#endif
+		
+		float3 var_118 = float3_zero;
+		float var_117 = float_zero;
+		float var_116 = float_zero;
+		float var_115 = float_zero;
+		float3 var_114 = float3_zero;
+		float var_113 = float_zero;
+		float var_112 = float_zero;
+		float var_111 = float_zero;
+		float3 var_110 = float3_zero;
+		float3 var_109 = float3_zero;
+		float3 var_108 = float3_zero;
+		float3 var_107 = float3_zero;
+		float3 var_106 = float3_zero;
+		float4 var_105 = float4_zero;
+		float4 var_104 = float4_zero;
+		float var_103 = float_zero;
+		float var_102 = float_zero;
+		float var_101 = float_zero;
+		float var_100 = float_zero;
+		float var_99 = float_zero;
+		float2 var_98 = float2_zero;
+		float3 var_97 = float3_zero;
+		float3 var_96 = float3_zero;
+		float3 var_95 = float3_zero;
+		float var_94 = float_zero;
+		float var_93 = float_zero;
+		float var_92 = float_zero;
+		float var_91 = float_zero;
+		bool var_90 = bool_zero;
+		float var_89 = float_zero;
+		float2 var_88 = float2_zero;
+		int var_87 = int_zero;
+		int var_86 = int_zero;
+		float var_85 = float_zero;
+		bool var_84 = bool_zero;
+		bool var_83 = bool_zero;
+		bool var_82 = bool_zero;
+		bool var_81 = bool_zero;
+		float var_80 = float_zero;
+		float var_79 = float_zero;
+		float var_78 = float_zero;
+		float var_77 = float_zero;
+		float2 var_76 = float2_zero;
+		float var_75 = float_zero;
+		float var_74 = float_zero;
+		float2 var_73 = float2_zero;
+		float2 var_72 = float2_zero;
+		float2 var_71 = float2_zero;
+		float2 var_70 = float2_zero;
+		float2 var_69 = float2_zero;
+		float var_68 = float_zero;
+		float var_67 = float_zero;
+		float var_66 = float_zero;
+		float2 var_65 = float2_zero;
+		float2 var_64 = float2_zero;
+		float var_63 = float_zero;
+		float var_62 = float_zero;
+		float var_61 = float_zero;
+		float3 var_60 = float3_zero;
+		float3 var_59 = float3_zero;
+		float3 var_58 = float3_zero;
+		float var_57 = float_zero;
+		float var_56 = float_zero;
+		float var_55 = float_zero;
+		float var_54 = float_zero;
+		float var_53 = float_zero;
+		float var_52 = float_zero;
+		float2 var_51 = float2_zero;
+		float3 var_50 = float3_zero;
+		int var_49 = int_zero;
+		float3 var_47 = float3_zero;
+		float3 var_46 = float3_zero;
+		float var_45 = float_zero;
+		float var_44 = float_zero;
+		float var_43 = float_zero;
+		float var_42 = float_zero;
+		bool var_41 = bool_zero;
+		float var_40 = float_zero;
+		float var_39 = float_zero;
+		int var_38 = int_zero;
+		int var_37 = int_zero;
+		int var_36 = int_zero;
+		int var_35 = int_zero;
+		float3 var_34 = float3_zero;
+		int var_33 = int_zero;
+		float var_31 = float_zero;
+		float var_30 = float_zero;
+		float var_29 = float_zero;
+		float var_28 = float_zero;
+		float var_27 = float_zero;
+		float3 var_26 = float3_zero;
+		float var_25 = float_zero;
+		float3 var_24 = float3_zero;
+		float3 var_23 = float3_zero;
+		float var_22 = float_zero;
+		float3 var_21 = float3_zero;
+		float var_20 = float_zero;
+		float3 var_19 = float3_zero;
+		float4 var_18 = float4_zero;
+		float var_17 = float_zero;
+		float var_16 = float_zero;
+		float var_15 = float_zero;
+		float var_14 = float_zero;
+		float4 var_13 = float4_zero;
+		float var_12 = float_zero;
+		float var_11 = float_zero;
+		float var_10 = float_zero;
+		float2 var_9 = float2_zero;
+		float3 var_8 = float3_zero;
+		float var_7 = float_zero;
+		float var_6 = float_zero;
+		float3 var_5 = float3_zero;
+		float3 var_4 = float3_zero;
+		float3 var_3 = float3_zero;
+		float var_2 = float_zero;
+		float var_1 = float_zero;
+		float3 global_var_aa073e78ad728fe9cc8e46c0916ba6829899c10e = float3_zero;
+		global_var_aa073e78ad728fe9cc8e46c0916ba6829899c10e = mul3(rotate_view_to_tangent, view_direction);
+		float3 global_var_2ef0fdc4b1d5bf22cb68f2defda884228c529246 = float3_zero;
+		global_var_2ef0fdc4b1d5bf22cb68f2defda884228c529246 = mul3(rotate_view_to_tangent, DATA_NORMAL);
+		var_1 = 3.000000f;
+		var_2 = _make_expr_float(max( var_1.x,0.000001f));
+		var_3 = view_direction;
+		var_4 = _make_expr_float3(- var_3.x,- var_3.y,- var_3.z);
+		var_5 = mul3(float3(0.000000f,0.000000f,1.000000f), rotate_view_to_tangent);
+		fmod_call_graph_wrapper(toFloat(s_frame),toFloat(make_int(16)),var_6);
+		_dot_product_call_graph_wrapper(global_var_aa073e78ad728fe9cc8e46c0916ba6829899c10e,global_var_2ef0fdc4b1d5bf22cb68f2defda884228c529246,var_7);
+		reflect_call_graph_wrapper(var_4,var_5,var_8);
+		fmod_call_graph_wrapper(toFloat2(toInt2(screen_coord)),toFloat2(256.000000f),var_9);
+		_multiply_call_graph_wrapper(var_6,GOLDEN_RATIO,var_10);
+		_add_call_graph_wrapper(0.300000f,0.000100f,var_11);
+		saturate_call_graph_wrapper(var_7,var_12);
+		var_13 = TEXTURE_ARRAY_FETCH_LOD(8f0b1da8df486a941a5f2a91917ef4deff3baa5b, toInt2(var_9), int_zero, int_zero);
+		_multiply_call_graph_wrapper(var_10,s_taa,var_14);
+		var_15 = var_11;
+		var_16 = _make_expr_float(1- var_15.x);
+		_subtract_call_graph_wrapper(1.000000f,var_12,var_17);
+		var_18 = var_13;
+		var_19 = _make_expr_float3( var_18.xyz);
+		var_20 = var_14;
+		var_21 = _make_expr_float3( var_20.xxx);
+		pow_call_graph_wrapper(var_17,var_2,var_22);
+		_add_call_graph_wrapper(var_19,var_21,var_23);
+		frac_call_graph_wrapper(var_23,var_24);
+		lerp_call_graph_wrapper(0.050000f,1.000000f,var_22,var_25);
+		var_26 = var_24;
+		var_27 = _make_expr_float( var_26.x);
+		_multiply_call_graph_wrapper(var_27,0.030000f,var_28);
+		_multiply_call_graph_wrapper(var_27,0.060000f,var_29);
+		lerp_call_graph_wrapper(0.030000f,var_28,0.200000f,var_30);
+		lerp_call_graph_wrapper(0.060000f,var_29,0.200000f,var_31);
+		var_34 = global_var_1ef54606f6729c15f0c1cc8c36839aab613b28a0;
+		unroll for(var_33 = 0; var_33 < 8; var_33++)
+		{
+			_multiply_call_graph_wrapper(var_33,var_33,var_35);
+			_add_call_graph_wrapper(var_35,make_int(1),var_36);
+			var_37 = make_int(8);
+			var_38 = _make_expr_int( var_37.x-1);
+			_multiply_call_graph_wrapper(var_30,toFloat(var_36),var_39);
+			_multiply_call_graph_wrapper(var_31,toFloat(var_36),var_40);
+			_equal_call_graph_wrapper(var_33,var_38,var_41);
+			var_42 = var_41 ? 100000.000000f : var_40;
+			var_43 = var_41 ? 100000.000000f : var_39;
+			var_44 = var_42;
+			var_45 = _make_expr_float( var_44.x);
+			_multiply_call_graph_wrapper(var_8,toFloat3(var_43),var_46);
+			_add_call_graph_wrapper(var_34,var_46,var_47);
+			var_50 = var_47;
+			unroll for(var_49 = 0; var_49 < 4; var_49++)
+			{
+				positionToScreenUV_call_graph_wrapper(var_50,var_51);
+				length_call_graph_wrapper(var_50,var_52);
+				var_53 = (TEXTURE_BIAS(tex_linear_depth, var_51, 0.000000f)).r;
+				var_54 = var_53;
+				var_55 = _make_expr_float( var_54.x);
+				_subtract_call_graph_wrapper(var_55,var_52,var_56);
+				clamp_call_graph_wrapper(var_56,0.000000f,var_43,var_57);
+				_multiply_call_graph_wrapper(var_8,toFloat3(var_57),var_58);
+				_add_call_graph_wrapper(var_50,var_58,var_59);
+				var_50 = var_59;
+				if (bool_zero) break;
+			}
+			var_60 = var_59;
+			var_61 = _make_expr_float(- var_60.z);
+			sign_call_graph_wrapper(var_61,var_62);
+			saturate_call_graph_wrapper(var_62,var_63);
+			positionToScreenUV_call_graph_wrapper(var_59,var_64);
+			saturate_call_graph_wrapper(var_64,var_65);
+			var_66 = (TEXTURE_BIAS(tex_linear_depth, var_65, 0.000000f)).r;
+			var_67 = var_66;
+			var_68 = _make_expr_float( var_67.x);
+			rerange_call_graph_wrapper(var_65,0.000000f,1.000000f,-1.000000f,1.000000f,var_69);
+			abs_call_graph_wrapper(var_69,var_70);
+			rerange_call_graph_wrapper(var_70,var_16,1.000000f,1.000000f,0.000000f,var_71);
+			saturate_call_graph_wrapper(var_71,var_72);
+			var_73 = var_72;
+			var_74 = _make_expr_float( var_73.x);
+			length_call_graph_wrapper(var_59,var_75);
+			var_76 = var_72;
+			var_77 = _make_expr_float( var_76.y);
+			_subtract_call_graph_wrapper(var_75,var_68,var_78);
+			min_call_graph_wrapper(var_74,var_77,var_79);
+			smoothstep_call_graph_wrapper(0.000000f,1.000000f,var_79,var_80);
+			_less_call_graph_wrapper(var_78,var_45,var_81);
+			_greater_call_graph_wrapper(var_78,0.000000f,var_82);
+			_logical_and_call_graph_wrapper(var_82,var_81,var_83);
+			_logical_and_call_graph_wrapper(var_83,toBool(var_63),var_84);
+			min_call_graph_wrapper(toFloat(var_84),var_80,var_85);
+			var_34 = var_59;
+			if (toBool(var_85)) break;
+		}
+		var_86 = make_int(8);
+		var_87 = _make_expr_int( var_86.x-1);
+		positionToScreenUV_call_graph_wrapper(var_59,var_88);
+		length_call_graph_wrapper(var_59,var_89);
+		_equal_call_graph_wrapper(var_33,var_87,var_90);
+		var_91 = (TEXTURE_BIAS(tex_linear_depth, var_88, 0.000000f)).r;
+		var_92 = var_91;
+		var_93 = _make_expr_float( var_92.x);
+		_subtract_call_graph_wrapper(var_93,var_89,var_94);
+		_multiply_call_graph_wrapper(var_8,toFloat3(var_94),var_95);
+		var_96 = var_90 ? float3(0.000000f,0.000000f,0.000000f) : var_95;
+		_add_call_graph_wrapper(var_59,var_96,var_97);
+		positionToScreenUV_call_graph_wrapper(var_97,var_98);
+		distance_call_graph_wrapper(global_var_1ef54606f6729c15f0c1cc8c36839aab613b28a0,var_97,var_99);
+		_multiply_call_graph_wrapper(var_99,0.000000f,var_100);
+		pow_call_graph_wrapper(var_100,0.500000f,var_101);
+		_multiply_call_graph_wrapper(var_101,6.000000f,var_102);
+		_add_call_graph_wrapper(var_102,0.000000f,var_103);
+		var_104 = TEXTURE_BIAS(tex_screen_color_old_reprojection, var_98, var_103);
+		var_105 = var_104;
+		var_106 = _make_expr_float3( var_105.xyz);
+		var_107 = toBool(var_85) ? var_106 : float3(0.000000f,0.000000f,0.000000f);
+		var_108 = var_107;
+		var_109 = _make_expr_float3( var_108.xyz);
+		_multiply_call_graph_wrapper(var_109,toFloat3(var_85),var_110);
+		var_111 = var_85;
+		var_112 = _make_expr_float(1- var_111.x);
+		var_113 = var_25;
+		
+		var_114 = toFloat3(1.000000f);
+		
+		var_115 = 1.000000f;
+		
+		var_116 = var_4b93d8479cb2d112283ef34d1b437d234adde333;
+		
+		var_117 = var_112;
+		
+		var_118 = var_110;
+		
+		OUT_FRAG_OPACITY = var_113;
+		
+		OUT_FRAG_ALBEDO = var_114;
+		
+		OUT_FRAG_METALNESS = var_115;
+		
+		OUT_FRAG_ROUGHNESS = var_116;
+		
+		OUT_FRAG_OCCLUSION = var_117;
+		
+		OUT_FRAG_EMISSION = var_118;
+		
+		
+		
+		#ifdef PASS_SHADOW && OPTION_TRANSPARENT
+			OUT_FRAG_OPACITY_THRESHOLD = shadow_clip_threshold;
+		#endif
+		#ifdef PASS_AUXILIARY && (OPTION_TRANSPARENT || ALPHA_TEST)
+			OUT_FRAG_OPACITY_THRESHOLD = auxiliary_clip_threshold;
+		#endif
+		
+		#undef NORMAL_TS_UV1
+		#undef NORMAL_TS_AUTO
+	#}
+}

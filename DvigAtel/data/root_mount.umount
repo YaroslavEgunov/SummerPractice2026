@@ -1,0 +1,9 @@
+{
+	"version": "2.18.0.1",
+	"ignore_filters": [
+		".svn",
+		".git",
+		".teamcity",
+		".thumbnails"
+	]
+}

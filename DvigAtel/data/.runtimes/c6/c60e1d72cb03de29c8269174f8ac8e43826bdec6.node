@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="NodeDummy" id="2058932438" name="template_buildings">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="2146226749" immovable="1" name="template_buildings">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://9802276da9e561e8d1bf5c2721ad2b5a2d4a02f1</mesh_name>
+			<surface name="wall_0_mat" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<surface name="floor_red_mat" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<surface name="floor_orange_mat" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<surface name="floor_green_mat" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<surface name="floor_gray_mat" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>1 -1.7484555e-07 0 0.0 1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

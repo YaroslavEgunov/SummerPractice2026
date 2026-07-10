@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "**/.thumbnails/": true,
+        "**/.cache_textures/": true,
+        "**/.runtimes/": true,
+        "bin/": true,
+        "obj/": true,
+        "**/*.meta": true,
+        "**/*.cache": true,
+        "**/*.dds": true,
+        "**/*.oga": true,
+        "**/*.wav": true,
+        "**/*.mesh": true,
+        "**/*.fbx": true,
+        "**/*.ttf": true,
+    },
+    "csharp.referencesCodeLens.enabled": false,
+    "csharp.testsCodeLens.enabled": false
+}
