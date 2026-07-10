@@ -850,7 +850,7 @@
 			<touch>1</touch>
 			<size>13.563611 2.50708389 1</size>
 			<properties>
-				<property/>
+				<property parent="a9126b7653323163d7ac4abddefc0a6371b85930" guid="a57bbb10dda2a4f96bfdd99cbc8eb511a49a4a57"/>
 			</properties>
 			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0.42634797 3.0227499 1.0986845 1.0</transform>
 		</node>

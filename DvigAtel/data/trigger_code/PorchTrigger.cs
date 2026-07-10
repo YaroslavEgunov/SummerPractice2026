@@ -11,6 +11,9 @@ namespace UnigineApp.data.trigger_code
         private WorldTrigger trigger;
         private string logFilePath;
 
+        /// <summary>
+        /// Функция инициализации компонента. Вызывается при создании объекта.
+        /// </summary>
         void Init()
         {
             trigger = node as WorldTrigger;
@@ -19,18 +22,21 @@ namespace UnigineApp.data.trigger_code
 
             if (trigger != null)
             {
-                Log.Message("[PorchTrigger] WorldTrigger успешно инициализирован.\n");
                 trigger.EventEnter.Connect(OnPlayerEnter);
             }
             else
             {
-                Log.Error($"[PorchTrigger] Ошибка: Текущий узел '{node.Name}' не является WorldTrigger!\n");
+                Log.Error($"[PorchTrigger] Ошибка: Текущий узел '{node.Name}' не является WorldTrigger\n");
             }
         }
 
+        /// <summary>
+        /// Функция, вызываемая при входе объекта в триггер.
+        /// </summary>
+        /// <param name="enterNode">Объект, который пересекает триггер.</param>
         private void OnPlayerEnter(Node enterNode)
         {
-            // Выводим в консоль Unigine имя любого объекта, который пересек триггер
+            // Выводим название того, кто задел триггер
             Log.Message($"[PorchTrigger] Объект '{enterNode.Name}' вошел в триггер.\n");
 
             if (enterNode.Name.Contains("first_person"))
@@ -40,19 +46,17 @@ namespace UnigineApp.data.trigger_code
                 try
                 {
                     File.AppendAllText(logFilePath, logMessage + Environment.NewLine);
-                    Log.Message("[PorchTrigger] Файл успешно записан/создан!\n");
                 }
                 catch (Exception ex)
                 {
                     Log.Error($"[PorchTrigger] Не удалось записать файл: {ex.Message}\n");
                 }
             }
-            else
-            {
-                Log.Message($"[PorchTrigger] Объект '{enterNode.Name}' проигнорирован, так как его имя не содержит 'first_person'.\n");
-            }
         }
 
+        /// <summary>
+        /// Функция, вызываемая при выходе объекта из триггера.
+        /// </summary>
         void Shutdown()
         {
             if (trigger != null)
