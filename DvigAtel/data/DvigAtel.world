@@ -807,31 +807,12 @@
 					<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
 					<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
 				</lens_flare_billboards>
-				<transform>-0.43301213 0.43559659 -0.78914928 0.0 -0.75000143 -0.65973973 0.047366548 0.0 -0.49999931 0.61237192 0.6123718 0.0 5.5310855 -2.9544408 4.204565 1.0</transform>
+				<transform>-0.43301222 0.43559667 -0.78914946 0.0 -0.75000221 -0.65974045 0.047366597 0.0 -0.49999902 0.61237156 0.61237144 0.0 2.9392498 -5.0864472 10.412238 1.0</transform>
 			</node>
 		</node>
-		<node type="ObjectDummy" id="1100139465" trigger_interaction_enabled="1" name="first_person_controller">
-			<body type="BodyRigid" id="165751145" frozen="0"/>
-			<properties>
-				<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="4fb11d8e61c5fdd85598b63e4028a30b671112d6">
-					<parameter name="mouseSensitivity">0.159290001</parameter>
-					<parameter name="useObjectBody">1</parameter>
-					<parameter name="fov">90</parameter>
-					<parameter name="nearClipping">0.100000001</parameter>
-					<parameter name="farClipping">100000</parameter>
-				</property>
-			</properties>
-			<transform>0.99999928 0 0 0.0 0 0.99999928 0 0.0 0 0 0.99999982 0.0 0 -4.1817837 0 1.0</transform>
-			<node type="ObjectMeshStatic" id="1958109844" name="Scavenger_mesh_body">
-				<streaming_mode_vram>0</streaming_mode_vram>
-				<streaming_mode_ram>0</streaming_mode_ram>
-				<mesh_name>guid://7febbc459871cc161eeefd8214b02e5f9051f169</mesh_name>
-				<surface name="Scavenger_mesh_bodyMat" intersection="1" material="42800e5f52c7032716ee71ef4202105f9cf51f67"/>
-				<properties>
-					<property/>
-				</properties>
-				<transform>0.010000002 0 0 0.0 0 0.010000002 0 0.0 0 0 0.010000017 0.0 0 0 0 1.0</transform>
-			</node>
+		<node type="NodeReference" id="67202232" name="first_person_controller">
+			<reference>guid://c009b6d108964e6d4e571f05aa689183ab3bee08</reference>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 -4.1817837 0 1.0</transform>
 		</node>
 		<node type="NodeDummy" id="1318276446" name="Cottage">
 			<transform>1.2 3.1763733e-22 -4.5856441e-15 0.0 8.325241e-23 1.2 1.0490733e-07 0.0 4.5856441e-15 -1.0490733e-07 1.2 0.0 0.70994276 8.9786596 4.7683713e-07 1.0</transform>
@@ -853,6 +834,31 @@
 				<property parent="a9126b7653323163d7ac4abddefc0a6371b85930" guid="a57bbb10dda2a4f96bfdd99cbc8eb511a49a4a57"/>
 			</properties>
 			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0.42634797 3.0227499 1.0986845 1.0</transform>
+		</node>
+		<node type="PlayerSpectator" id="551508641" name="PlayerSpectator">
+			<collision>1</collision>
+			<collision_mask>0x1</collision_mask>
+			<collision_radius>0.5</collision_radius>
+			<min_velocity>2</min_velocity>
+			<max_velocity>4</max_velocity>
+			<min_theta_angle>-89.9000015</min_theta_angle>
+			<max_theta_angle>89.9000015</max_theta_angle>
+			<acceleration>4</acceleration>
+			<damping>8</damping>
+			<turning>90</turning>
+			<znear>0.300000012</znear>
+			<zfar>100000</zfar>
+			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+			<is_oblique_frustum>0</is_oblique_frustum>
+			<is_main>0</is_main>
+			<is_listener>1</is_listener>
+			<controlled>1</controlled>
+			<properties>
+				<property parent="aa496d58bcca8ba14d6235bf7a9bdd9ae828e342" guid="c1d1ad7875831206a7187d95a560851de1d162a7">
+					<parameter name="targetToTrack">67202232</parameter>
+				</property>
+			</properties>
+			<transform>0.99999881 0 0 0.0 0 0.6306687 0.77603769 0.0 0 -0.77603996 0.63067055 0.0 0.84777182 -10.442307 4.5203266 1.0</transform>
 		</node>
 	</editor>
 	<console>

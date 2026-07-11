@@ -47,12 +47,16 @@
 	<ItemGroup>
 		<Compile Include="data/trigger_code/PorchTrigger.cs"/>
 		<Compile Include="data/csharp_template/FP_controller/components/FirstPersonController.cs"/>
+		<Compile Include="data/camera_record/camera.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>
 		<Compile Include="source\AppSystemLogic.cs"/>
 		<Compile Include="source\AppWorldLogic.cs"/>
 		<Compile Include="source\main.cs"/>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="10.0.9"/>
 	</ItemGroup>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_x64d.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos; And $(SkipPostBuild)==&apos;false&apos;"/>

@@ -6,6 +6,9 @@ using File = System.IO.File;
 
 namespace UnigineApp.data.trigger_code
 {
+    /// <summary>
+    /// Класс для триггера, который записывает логи в файл при входе игрока в триггерную зону.
+    /// </summary>
     public class PorchTrigger : Component
     {
         private WorldTrigger trigger;
