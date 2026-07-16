@@ -1,0 +1,8 @@
+﻿Изображение,Найдено людей,Максимальная уверенность,Результат
+1.jpg,1,0.673,1_detected.jpg
+2.jpg,1,0.844,2_detected.jpg
+3.jpg,1,0.76,3_detected.jpg
+4.jpg,0,0.0,4_detected.jpg
+5.jpg,1,0.825,5_detected.jpg
+legs.jpg,1,0.353,legs_detected.jpg
+without.jpg,0,0.0,without_detected.jpg
