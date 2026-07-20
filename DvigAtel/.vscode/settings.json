@@ -14,6 +14,6 @@
         "**/*.fbx": true,
         "**/*.ttf": true,
     },
-    "csharp.referencesCodeLens.enabled": false,
-    "csharp.testsCodeLens.enabled": false
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "dotnet.codeLens.enableTestsCodeLens": false
 }
