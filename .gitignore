@@ -430,3 +430,18 @@ FodyWeavers.xsd
 
 # Веса моделей YOLO
 *.pt
+
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# YOLO: промежуточные и дублирующиеся результаты
+cv_model/results/predictions_camera_1/
+cv_model/results/predictions_camera_2/
+cv_model/results/yolo11n_person_v1/weights/
+cv_model/models/pretrained/
+
+# Личный документ с планами отчётов
+Планы_отчетов_по_практике.docx
+
