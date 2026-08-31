@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="NodeDummy" id="384768603" name="CNC_Mill">
+		<transform>1 2.646978e-22 -3.8213714e-15 0.0 9.2644229e-23 1 8.7422777e-08 0.0 3.8213714e-15 -8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="1039567870" name="CNC Mill v6">
+			<transform>0.1 -1.6543581e-24 2.646978e-23 0.0 -9.9261421e-25 0.1 0 0.0 -2.646978e-23 0 0.1 0.0 0 0 0 1.0</transform>
+			<node type="NodeDummy" id="1233732421" name="Nema 17 v3:1">
+				<transform>8.7422777e-08 -1 -4.3711395e-08 0.0 -4.3711385e-08 -4.3711395e-08 1 0.0 -1 -8.7422784e-08 -4.3711392e-08 0.0 -3.4315 0.099999644 -1.4 1.0</transform>
+				<node type="NodeDummy" id="988928992" name="Nema 17 v3">
+					<transform>1 0 -1.3733708e-15 0.0 0 1 0 0.0 -1.3733703e-15 -3.5527137e-15 1 0.0 0 1.7672932e-08 0 1.0</transform>
+					<node type="ObjectMeshStatic" id="288513471" immovable="1" name="Body2">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://1ff98ce1d1c834b4fbbdc7c7751abc3867c4a8d6</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 -1.1368684e-13 -1.1320969e-13 0.0 1.1368684e-13 10 2.8421709e-14 0.0 5.7320569e-14 -2.8421709e-14 10 0.0 0 1.7672932e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1425985554" immovable="1" name="Body3">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://b8b2604a23bcdd052e1de3dcd10604a45996ca3d</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 -1.1368684e-13 -1.1320969e-13 0.0 1.1368684e-13 10 2.8421709e-14 0.0 5.7320569e-14 -2.8421709e-14 10 0.0 0 1.7672932e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1711845449" immovable="1" name="Body4">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://d5beb2fb90ac33f2ef992c51c593756a9da08678</mesh_name>
+						<surface name="Plastic - Glossy (Black)" intersection="1" material="2d2e9a9cb85296b62ac836fe4c7b28332354e547"/>
+						<transform>10 -1.1368684e-13 -1.1320969e-13 0.0 1.1368684e-13 10 2.8421709e-14 0.0 5.7320569e-14 -2.8421709e-14 10 0.0 0 1.7672932e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="406715668" immovable="1" name="Body5">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://e975828c045b7793d4ce7c6e8262cc7754e19777</mesh_name>
+						<surface name="surface_0" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 -1.1368684e-13 -1.1320969e-13 0.0 1.1368684e-13 10 2.8421709e-14 0.0 5.7320569e-14 -2.8421709e-14 10 0.0 0 1.7672932e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1633600867" immovable="1" name="Body6">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://e373f2a5fd71bf96d84eefeb313367f238dc0e6a</mesh_name>
+						<surface name="Plastic - Glossy (Black)" intersection="1" material="2d2e9a9cb85296b62ac836fe4c7b28332354e547"/>
+						<transform>10 -1.1368684e-13 -1.1320969e-13 0.0 1.1368684e-13 10 2.8421709e-14 0.0 5.7320569e-14 -2.8421709e-14 10 0.0 0 1.7672932e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="932146022" immovable="1" name="Body7">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://8e144a9ec51717d8ae3203505a44bd6135b3eac1</mesh_name>
+						<surface name="surface_0" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+						<surface name="Paint - Enamel Glossy (Black)" intersection="1" material="1af0beb8fbf190188fe0877a777cb13b6ac5ce73"/>
+						<transform>10 -1.1368684e-13 -1.1320969e-13 0.0 1.1368684e-13 10 2.8421709e-14 0.0 5.7320569e-14 -2.8421709e-14 10 0.0 0 1.7672932e-08 0 1.0</transform>
+					</node>
+				</node>
+			</node>
+			<node type="NodeDummy" id="813173645" name="Nema 17 v3:2">
+				<transform>1 2.5243549e-29 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0500001 0.94999999 0.43849996 1.0</transform>
+				<node type="NodeDummy" id="669431688" name="Nema 17 v3">
+					<transform>1 2.5243549e-29 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 6.3553358e-09 1.0</transform>
+					<node type="ObjectMeshStatic" id="479098183" immovable="1" name="Body2">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://1ff98ce1d1c834b4fbbdc7c7751abc3867c4a8d6</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 6.3553358e-09 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1716793850" immovable="1" name="Body3">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://b8b2604a23bcdd052e1de3dcd10604a45996ca3d</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 6.3553358e-09 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1544100113" immovable="1" name="Body4">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://d5beb2fb90ac33f2ef992c51c593756a9da08678</mesh_name>
+						<surface name="Plastic - Glossy (Black)" intersection="1" material="2d2e9a9cb85296b62ac836fe4c7b28332354e547"/>
+						<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 6.3553358e-09 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="2072706876" immovable="1" name="Body5">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://e975828c045b7793d4ce7c6e8262cc7754e19777</mesh_name>
+						<surface name="surface_0" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 6.3553358e-09 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1359729003" immovable="1" name="Body6">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://e373f2a5fd71bf96d84eefeb313367f238dc0e6a</mesh_name>
+						<surface name="Plastic - Glossy (Black)" intersection="1" material="2d2e9a9cb85296b62ac836fe4c7b28332354e547"/>
+						<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 6.3553358e-09 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="49035214" immovable="1" name="Body7">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://8e144a9ec51717d8ae3203505a44bd6135b3eac1</mesh_name>
+						<surface name="surface_0" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+						<surface name="Paint - Enamel Glossy (Black)" intersection="1" material="1af0beb8fbf190188fe0877a777cb13b6ac5ce73"/>
+						<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 6.3553358e-09 1.0</transform>
+					</node>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1942478037" name="Untitled v3:1">
+				<transform>1 7.2164497e-16 0 0.0 -7.2164491e-16 1 0 0.0 0 0 1 0.0 -1.45 0.6499998 -1.8365 1.0</transform>
+				<node type="NodeDummy" id="1348405296" name="Untitled v3">
+					<transform>1 3.6502046e-23 0 0.0 -6.9377098e-23 1 0 0.0 0 0 1 0.0 0 0 -5.6824806e-08 1.0</transform>
+					<node type="ObjectMeshStatic" id="2067103183" immovable="1" name="Body1">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://1366c65f1be24c3d57f3091593cfe8a892f3c52c</mesh_name>
+						<surface name="Aluminum - Anodized Glossy (Grey)" intersection="1" material="604008ce9939e823f32619007279d6eb3168e631"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="394121442" immovable="1" name="Body2">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://83da8d00c81a386f062c81028a20674414ab7e9b</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1964939993" immovable="1" name="Body3">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://cf642ca9bdc9c511a1c5524f4d7c8272fab9233e</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="2145404516" immovable="1" name="Body4">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://a6e732321f8027f148883204aed655c82cee7185</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1990352499" immovable="1" name="Body5">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://947c48034a3c2c810f0c2a19f0de04e79bc2b520</mesh_name>
+						<surface name="Aluminum - Anodized Glossy (Grey)" intersection="1" material="604008ce9939e823f32619007279d6eb3168e631"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="764055862" immovable="1" name="Body6">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://91fa56b4279af16c86b8a6d6b99c6d2d699ce5ff</mesh_name>
+						<surface name="Aluminum - Anodized Glossy (Grey)" intersection="1" material="604008ce9939e823f32619007279d6eb3168e631"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1889130269" immovable="1" name="Body7">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://e32efeed655bc8f3b83012f338273df592f13b52</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1103719896" immovable="1" name="Body8">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://5cb06b0624c11042f312e3f8a677adc39b53a289</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="260413271" immovable="1" name="Body9">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://60299be7228bc4cbda00535dd7157d8651d1ca54</mesh_name>
+						<surface name="Aluminum - Anodized Glossy (Grey)" intersection="1" material="604008ce9939e823f32619007279d6eb3168e631"/>
+						<transform>10 8.944159e-22 -3.3881318e-21 0.0 -7.9965e-22 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 -5.6824806e-08 1.0</transform>
+					</node>
+				</node>
+			</node>
+			<node type="NodeDummy" id="134433994" name="Nema 17 v3:3">
+				<transform>1 8.7422777e-08 8.7422769e-08 0.0 8.7422784e-08 1.4210855e-14 -1 0.0 -8.7422777e-08 1 0 0.0 -1.3760002 1.6790696 -1.4994668 1.0</transform>
+				<node type="NodeDummy" id="1961645473" name="Nema 17 v3">
+					<transform>1 0 5.3731535e-16 0.0 0 1 0 0.0 5.3731535e-16 0 1 0.0 0 2.6495186e-08 0 1.0</transform>
+					<node type="ObjectMeshStatic" id="860254860" immovable="1" name="Body2">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://1ff98ce1d1c834b4fbbdc7c7751abc3867c4a8d6</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 -1.1368684e-13 1.9584012e-14 0.0 5.6843419e-14 10 5.6843419e-14 0.0 -3.7259407e-14 -1.1368684e-13 10 0.0 0 2.6495186e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="408063099" immovable="1" name="Body3">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://b8b2604a23bcdd052e1de3dcd10604a45996ca3d</mesh_name>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 -1.1368684e-13 1.9584012e-14 0.0 5.6843419e-14 10 5.6843419e-14 0.0 -3.7259407e-14 -1.1368684e-13 10 0.0 0 2.6495186e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="345773982" immovable="1" name="Body4">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://d5beb2fb90ac33f2ef992c51c593756a9da08678</mesh_name>
+						<surface name="Plastic - Glossy (Black)" intersection="1" material="2d2e9a9cb85296b62ac836fe4c7b28332354e547"/>
+						<transform>10 -1.1368684e-13 1.9584012e-14 0.0 5.6843419e-14 10 5.6843419e-14 0.0 -3.7259407e-14 -1.1368684e-13 10 0.0 0 2.6495186e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1211308645" immovable="1" name="Body5">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://e975828c045b7793d4ce7c6e8262cc7754e19777</mesh_name>
+						<surface name="surface_0" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+						<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+						<transform>10 -1.1368684e-13 1.9584012e-14 0.0 5.6843419e-14 10 5.6843419e-14 0.0 -3.7259407e-14 -1.1368684e-13 10 0.0 0 2.6495186e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="1466468480" immovable="1" name="Body6">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://e373f2a5fd71bf96d84eefeb313367f238dc0e6a</mesh_name>
+						<surface name="Plastic - Glossy (Black)" intersection="1" material="2d2e9a9cb85296b62ac836fe4c7b28332354e547"/>
+						<transform>10 -1.1368684e-13 1.9584012e-14 0.0 5.6843419e-14 10 5.6843419e-14 0.0 -3.7259407e-14 -1.1368684e-13 10 0.0 0 2.6495186e-08 0 1.0</transform>
+					</node>
+					<node type="ObjectMeshStatic" id="664855007" immovable="1" name="Body7">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://8e144a9ec51717d8ae3203505a44bd6135b3eac1</mesh_name>
+						<surface name="surface_0" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+						<surface name="Paint - Enamel Glossy (Black)" intersection="1" material="1af0beb8fbf190188fe0877a777cb13b6ac5ce73"/>
+						<transform>10 -1.1368684e-13 1.9584012e-14 0.0 5.6843419e-14 10 5.6843419e-14 0.0 -3.7259407e-14 -1.1368684e-13 10 0.0 0 2.6495186e-08 0 1.0</transform>
+					</node>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1751139762" immovable="1" name="Frame1">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://93f253a89c381882d48281eab422de0ebce7b1a3</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="863594857" immovable="1" name="Frame2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://25fd6d71f9d62c30c14895d79573d3207de4eaa6</mesh_name>
+				<surface name="Aluminum - Polished" intersection="1" material="16f2d0d8e80b1992bdbb2e9a0e9044982c12f413"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="81404852" immovable="1" name="Frame3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://fda2891ae22b86899d03cd2cf4816ca9c0c301cd</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1649441667" immovable="1" name="Frame4">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ee77660b21283f0fb31f88e18280b853e612b8c8</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1535535878" immovable="1" name="Screw1">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8fcf37dc322ee97cc66ae63e182d22516c8a0587</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1685898925" immovable="1" name="Bracket1">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://4a80bc35e656dec6de967efb1f916b7847d4053a</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1959983144" immovable="1" name="Screw2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://2cf1606e393b7f74343fe1a0c21f316edef25351</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1978498407" immovable="1" name="Bracket2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://a9b08a6f9f95611364b20ea59ad0818a3ed8747c</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="411327386" immovable="1" name="Screw3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8200f750f7d897a3e6b7e7d2a05b9b7e0bf245ab</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="699463217" immovable="1" name="Bracket3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://06f66f3944588f09fdd3b25f69494da62d319f0e</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1733032412" immovable="1" name="Bracket4">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://a06605023342d5831a135554d93b3202d5b19b15</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="659835787" immovable="1" name="Screw5">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://be062d133e814b2647fc68a94a431e4cff4b3170</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="845359982" immovable="1" name="Screw6">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ed0ec6042437552d4ee8daa6880d60e4fce3160f</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="209976309" immovable="1" name="Screw4">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://e56c4a7ddb9a7c6467905403e0b59822b6380c22</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="275995856" immovable="1" name="Screw7">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8f32cad6cc946b447b259c48c14e5129016f1d19</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="429230575" immovable="1" name="Screw8">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://9b73b1f7281a43d2ec835aedc5b5c5db6c1c63a4</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="374550146" immovable="1" name="Body32">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://fc8b17f87617447798ca52baf8206a39c4975ab3</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="232922105" immovable="1" name="Body33">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://9044520182908b6ef016c7e7a4a7496961bce076</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1130403076" immovable="1" name="Desk">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://660745eac169214f3ead6a7c7b4475c95ffb5d5d</mesh_name>
+				<surface name="Plastic - Glossy (Grey)" intersection="1" material="7d4806acdd245e16d5c7658e18900421be361717"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="823794835" immovable="1" name="Linear Rail 1">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://cde2bd1ba16fe44eab8fe9719b7bf710617abf18</mesh_name>
+				<surface name="Aluminum - Polished" intersection="1" material="16f2d0d8e80b1992bdbb2e9a0e9044982c12f413"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1820326102" immovable="1" name="Linear Rail 2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ef47a12cad90df56b8ca240ea894d457c1263797</mesh_name>
+				<surface name="Aluminum - Polished" intersection="1" material="16f2d0d8e80b1992bdbb2e9a0e9044982c12f413"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="150592061" immovable="1" name="Body65">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://def8c9c58bc492676e8fb20bb40d0ba1b344f00a</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="235427448" immovable="1" name="Body66">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://94644a3e654dc70580e4b3f0183b9db33f8d1fe1</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="923215735" immovable="1" name="Nut3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://0f8f327f101e8cb66bf358356ebce547ce4637cc</mesh_name>
+				<surface name="Iron - Polished" intersection="1" material="32a33dc84c5a1ac8562dc10a2bafefdef2e28f43"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1009016426" immovable="1" name="Frame5">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://bcc955a0f034af9dd58b62a2de4406e0232710bb</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="4192961" immovable="1" name="Frame6">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://272035c9ee6aa4d75e65f66fa5e32e7b38584ede</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="980456748" immovable="1" name="Frame7">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://872febd284c58ee7ccbcaca465e88fc5fc0568a5</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="551685787" immovable="1" name="Nut4">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://b9ab362395bcb7ba1a0b2b39912b5af3688401c0</mesh_name>
+				<surface name="Iron - Polished" intersection="1" material="32a33dc84c5a1ac8562dc10a2bafefdef2e28f43"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1725854526" immovable="1" name="Thread">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://29fc6954b22ed86070ba62765fe92e4d4f958a1f</mesh_name>
+				<surface name="Steel - Rough" intersection="1" material="5c7f3624f3864e6f9a148fc61c05f6ebb992f1af"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1488159109" immovable="1" name="Stepper motor holder 1">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://95b15a0dbc76c27cceeab913475f8c0c591650f2</mesh_name>
+				<surface name="Plastic - Matte (Black)" intersection="1" material="7bb06bc039cfe4c7014badc2f306bc4cd0488a5b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1764001056" immovable="1" name="Screw9">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://24897ea683d9962c88d1c8989e7378e68e737ba9</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="544503295" immovable="1" name="Screw10">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f7432c07be4126439805267d4eb6b80f8f1290f4</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1329826642" immovable="1" name="Screw11">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c128504816ccdcec7520b78a1d6831810df587c3</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1197585033" immovable="1" name="Screw12">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://94873a91775e162505395df71c2945c408098a46</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="954767956" immovable="1" name="Body92">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://5cdd96ba8753601f4b9fbbcc27fc1c5ef2d8dced</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1609580963" immovable="1" name="Body93">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://5e61b82bc45d222b2a634e01a1a6ec5e8c9d9968</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1051998886" immovable="1" name="Body97">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://6123be7cf322f015fdf935de57ec4e0c26b72da7</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1965691341" immovable="1" name="Body98">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://80251b5593a183d6745b891b439f7c78a53bceda</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="799967432" immovable="1" name="Linear Rail 3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://a53a080ea4c539fe0af57a40542c7d6da82d5071</mesh_name>
+				<surface name="Aluminum - Polished" intersection="1" material="16f2d0d8e80b1992bdbb2e9a0e9044982c12f413"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="240358791" immovable="1" name="Thread2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://d373be8fe5b45e84a4bfe5c5f20888baafd20f1c</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1584420154" immovable="1" name="Stepper motor holder 2 ">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://57c8a7f01ef57f71eb83f17251eb37d155dadfcb</mesh_name>
+				<surface name="Plastic - Matte (Black)" intersection="1" material="7bb06bc039cfe4c7014badc2f306bc4cd0488a5b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="482501457" immovable="1" name="Stepper motor holder 2 - part2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://31ba8059b78cc7bfefad1e7f71b46baca88a32ae</mesh_name>
+				<surface name="Plastic - Matte (Black)" intersection="1" material="7bb06bc039cfe4c7014badc2f306bc4cd0488a5b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1489585276" immovable="1" name="Screw13">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://6ee1e6a203a4e0cf5aa937f4e82e2512cea2da35</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="537712043" immovable="1" name="Screw14">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://daec63339c6681b0dad171c965f8d444ecd22610</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1475014414" immovable="1" name="Screw15">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://3ba840a49cf8720b98da3e461e8ba930b5d5422f</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="653962005" immovable="1" name="Screw16">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://21672d9d4808c0af3b8042234e98d2e3e73909c2</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1281425776" immovable="1" name="Stepper motor holder 1 - part 2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f0218676911559442e8c68e8d648f70ba829be39</mesh_name>
+				<surface name="Plastic - Matte (Black)" intersection="1" material="7bb06bc039cfe4c7014badc2f306bc4cd0488a5b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1742644751" immovable="1" name="Body112">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://bd290a1700cecc3319aeb60ddbdc91cafbe95244</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1885232162" immovable="1" name="Body113">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f8fefc9819b6f3a74702b05a7d0e055b06b338d3</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="155266329" immovable="1" name="Body114">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://24bf272103629d82600158070269ea8a88c7e816</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="338113444" immovable="1" name="Body115">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://d2627b8a0b632777d39fc11c487d33467f34807d</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1812196019" immovable="1" name="Body116">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://2095573bfe83dd2aad52b6912df42c0e298047b8</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="866136182" immovable="1" name="Body117">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c5e88fcc31399cc311451bae6a2c2041757de7b7</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1785097565" immovable="1" name="Body119">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://0d8eb0e5325cb587625b042bbd1a7adfff05a1aa</mesh_name>
+				<surface name="Plastic - Glossy (Grey)" intersection="1" material="7d4806acdd245e16d5c7658e18900421be361717"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="558534424" immovable="1" name="Bearing3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://997f99de6b6d423314873490bf2500c837bbe501</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="462669719" immovable="1" name="Stepper motor holder 3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://fe0f2e9f7ee37475b660b7559afff48f4b50fa6c</mesh_name>
+				<surface name="Plastic - Matte (Black)" intersection="1" material="7bb06bc039cfe4c7014badc2f306bc4cd0488a5b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="37044234" immovable="1" name="Screw17">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f1d3ee40c4c33ec47ebe9442924a9be6c7deb2db</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1369518049" immovable="1" name="Screw18">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://acde4ee97ef38c6d481a2a8f687d244a95644a7e</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1202390988" immovable="1" name="Bracket5">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://d858f572ee129932bd3df744d8aa234e0e82efc5</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1210425531" immovable="1" name="Bracket6">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://138ab4436e8991a5d4283c5912c324518eda9e60</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="379952862" immovable="1" name="Screw19">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c4374bf4f0b4b2fb05356e163cbb133b10033e3f</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1674737829" immovable="1" name="Screw20">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://fe36c52d829f5b1988d1ef330baec0976b8d3692</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1917702592" immovable="1" name="Bracket7">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://86a7e2464220800cf20a7d3894a029804a9ae4c9</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="129309215" immovable="1" name="Screw21">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://38f64c2782951f5c66e9099d67da49911515a794</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1443930354" immovable="1" name="Screw22">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://de841ce8d0df5511112d3d2ae89893c84cc16de3</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1930005417" immovable="1" name="Screw23">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://7f2517b1fe3cec0e51ffb617541f9d28ef34f9e6</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="85025012" immovable="1" name="Screw24">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://0c12f45aa4230e120db27a6cbb200cdbe527480d</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1657149379" immovable="1" name="Bracket8">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://3b5e9a4bc3d2d4016e5723214cf5abed8f67ca08</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="55878" immovable="1" name="Screw25">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://d55b151cefb095ca673ad57e0e049b3799fb65c7</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1682435309" immovable="1" name="Screw26">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f6fe8a75b36b6c37412f233bd3c26e12292f687a</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="530671976" immovable="1" name="Screw27">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://d481ffae0c509f2efaeee2e0903872af6b61dd91</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1925758375" immovable="1" name="Screw28">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://225282af02de4baf485ecce5c11c232e51d7f9bc</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="293609178" immovable="1" name="Linear Rail 4">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f5002890d1418caaf2984b121632e8e3d54389eb</mesh_name>
+				<surface name="Aluminum - Polished" intersection="1" material="16f2d0d8e80b1992bdbb2e9a0e9044982c12f413"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="797270129" immovable="1" name="Linear Rail 5">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://32e4a17932374401785e1a9f8cd16b6971c3964e</mesh_name>
+				<surface name="Aluminum - Polished" intersection="1" material="16f2d0d8e80b1992bdbb2e9a0e9044982c12f413"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="900390684" immovable="1" name="Screw29">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://81b218427977483f3d1fea94cda83d3b9edea955</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1421701067" immovable="1" name="Screw30">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://038729532d9dfb77d4288ae9689b97558e826ab0</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1869316782" immovable="1" name="Thread3">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://650e8b4430a30d8054f8f1e6374447b1dac07e4f</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2113137205" immovable="1" name="Working Table">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://7a0920bdda1f28f530a0c0438cec5ad6603fd762</mesh_name>
+				<surface name="Steel - Rough" intersection="1" material="5c7f3624f3864e6f9a148fc61c05f6ebb992f1af"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="810546704" immovable="1" name="Body159">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://0e0992162e70c3901c41058812881871980fef59</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="337170991" immovable="1" name="Body160">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c8bbf23719063cc9bd5d212d23c15b76ae4c90e4</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="738679234" immovable="1" name="Body161">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://1f6cb138c7f16d26cb9d5dfad29ce683be5126f3</mesh_name>
+				<surface name="Aluminum - Anodized Glossy (Red)" intersection="1" material="402054d08e493ab5283ae152d608d99068b07d2b"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="713281081" immovable="1" name="Holder">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://be320c41af736a1c2f05782746dd0a6109cdbfb6</mesh_name>
+				<surface name="Aluminum - Bead Blasted" intersection="1" material="65fac6bc1b2324a1a8ed081e26d3345f59ea2ce7"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="215753284" immovable="1" name="Body165">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://74ac012afa5f2d7da81ce7bcd3300f186f0a339d</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1911015635" immovable="1" name="Body166">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8bde815b32a7b7e5f3a993b1469c4c24fad92058</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2077440022" immovable="1" name="Body167">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://6e804e6c57b266673da7634e3d0e9f23a4f0a7d7</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="682070141" immovable="1" name="Body168">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://cc7da805c31b50e4bfb8e64bf3a94c50e386234a</mesh_name>
+				<surface name="Steel - Satin" intersection="1" material="090a2c34519567f2ab4ed8563a5c77d495acf57f"/>
+				<transform>10 2.9778522e-22 -3.3881318e-21 0.0 9.9261875e-23 10 5.6843419e-14 0.0 3.3881318e-21 -5.6843419e-14 10 0.0 0 0 0 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nodes version="2.18.0.1">
 	<node type="ObjectDummy" id="1100139465" trigger_interaction_enabled="1" name="first_person_controller">
-		<body type="BodyRigid" id="165751145" frozen="0"/>
+		<body type="BodyRigid" id="165751145" frozen="0">
+			<freezable>0</freezable>
+		</body>
 		<properties>
-			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="4fb11d8e61c5fdd85598b63e4028a30b671112d6">
+			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="8b5bb3889e19c3415f991cca1a0b0a26fcac3603">
 				<parameter name="mouseSensitivity">0.159290001</parameter>
 				<parameter name="useObjectBody">1</parameter>
 				<parameter name="fov">90</parameter>
