@@ -209,7 +209,7 @@
 				"prop": {
 					"label": "Path",
 					"widget": "Texture2D",
-					"asset": "3565043ff77668f3d2baccafe3305b0ee27905aa"
+					"asset": "f9e4bd916039732758b57b879922770891440620"
 				},
 				"prop": {
 					"label": "Wrap X",
@@ -261,7 +261,7 @@
 			},
 			"outputs": {
 				"output": {
-					"label": "scavenger_LP_hobo_AlbedoTransparency.png",
+					"label": "scavenger_LP_hobo_AlbedoTransparency_0.png",
 					"type": "Texture2D",
 					"id": 0
 				}
@@ -411,7 +411,7 @@
 			"input_node": "5259930c9d84cd47eba485dc6d70dbfa1145daf3",
 			"output_index": 0,
 			"output_type": "Texture2D",
-			"output_label": "scavenger_LP_hobo_AlbedoTransparency.png",
+			"output_label": "scavenger_LP_hobo_AlbedoTransparency_0.png",
 			"output_id": 0,
 			"output_node": "4d0ff6e15e153ff55c2bced1d8ff35ec227b14e4"
 		},

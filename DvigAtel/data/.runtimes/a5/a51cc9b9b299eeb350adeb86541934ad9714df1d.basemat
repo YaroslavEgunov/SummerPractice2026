@@ -9,7 +9,7 @@ BaseMaterial<
 	// optimization
 	State static_shadow = false
 	
-Texture2D "7f9b4d906d4cbe82d2baccafe3305b0ee27905aa"="guid://3565043ff77668f3d2baccafe3305b0ee27905aa" <shader_name="7f9b4d906d4cbe82d2baccafe3305b0ee27905aa" editable=false wrap=[repeat_x repeat_y repeat_z ]>
+Texture2D "7fb82d92be81868658b57b879922770891440620"="guid://f9e4bd916039732758b57b879922770891440620" <shader_name="7fb82d92be81868658b57b879922770891440620" editable=false wrap=[repeat_x repeat_y repeat_z ]>
 Group "Parameters"
 {
 Float4 "specular_color"=[0.200000 0.200000 0.200000 1.000000] < shader_name="var_4b93d8479cb2d112283ef34d1b437d234adde333">
@@ -273,7 +273,7 @@ Float4 "albedo_color"=[0.800000 0.800000 0.800000 1.000000] <shared=false>
 		float3 var_3 = float3_zero;
 		float4 var_2 = float4_zero;
 		float4 var_1 = float4_zero;
-		var_1 = TEXTURE(7f9b4d906d4cbe82d2baccafe3305b0ee27905aa, cord_sample_Texture2D);
+		var_1 = TEXTURE(7fb82d92be81868658b57b879922770891440620, cord_sample_Texture2D);
 		var_2 = var_1;
 		var_3 = _make_expr_float3( var_2.xyz);
 		var_4 = var_3;
