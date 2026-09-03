@@ -122,6 +122,9 @@
 
 Проект поддерживает одновременный контроль нескольких технологических зон и формирует события только при изменении их состояния.
 
+<img width="1063" height="464" alt="image" src="https://github.com/user-attachments/assets/18084cfc-8fb2-470a-9e26-6fba5d74e612" />
+<img width="1063" height="507" alt="image" src="https://github.com/user-attachments/assets/3681a5de-4930-47eb-bc8d-4db9a55aa304" />
+
 ---
 
 ## Разработчики
